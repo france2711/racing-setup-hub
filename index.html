@@ -2,201 +2,150 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b12">
   <title>Racing Setup Hub</title>
-
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
   <header class="topbar">
-    <div>
-      <p class="eyebrow">PERSONAL RACING DATABASE</p>
-      <h1>Racing Setup Hub</h1>
+    <div class="brand">
+      <span class="brand-mark">RSH</span>
+      <div>
+        <p>PERSONAL RACING DATABASE</p>
+        <h1>Racing Setup Hub</h1>
+      </div>
     </div>
+    <button id="themeButton" class="icon-button" type="button" aria-label="Darstellung wechseln">◐</button>
   </header>
 
   <main class="shell">
-
     <section class="hero">
-      <div>
-        <span class="badge">Version 2.1</span>
-
-        <h2>
-          Deine Setups für GT7, F1 26 und ACC
-        </h2>
-
-        <p>
-          Wähle ein Spiel und öffne deine persönliche Setup-Datenbank.
-        </p>
-      </div>
-    </section>
-
-    <section class="toolbar">
-      <input
-        id="searchInput"
-        type="search"
-        placeholder="Auto, Strecke oder Spiel suchen …"
-      >
-
-      <select id="gameFilter">
-        <option value="all">Alle Spiele</option>
-        <option value="GT7">Gran Turismo 7</option>
-        <option value="F1 26">F1 26</option>
-        <option value="ACC">ACC</option>
-      </select>
-    </section>
-
-    <section class="game-grid">
-
-      <a
-        class="game-card gt7"
-        href="pages/gt7.html"
-        style="text-decoration: none;"
-      >
-        <span class="game-tag">GT7</span>
-
-        <h3>Gran Turismo 7</h3>
-
-        <p>
-          Fahrzeuge, Strecken, Bremsbalance und TKS.
-        </p>
-      </a>
-
-      <button
-        class="game-card f1"
-        type="button"
-        data-game="F1 26"
-      >
-        <span class="game-tag">F1 26</span>
-
-        <h3>Formula Racing</h3>
-
-        <p>
-          Trocken-, Regen- und Controller-Setups.
-        </p>
-      </button>
-
-      <button
-        class="game-card acc"
-        type="button"
-        data-game="ACC"
-      >
-        <span class="game-tag">ACC</span>
-
-        <h3>Assetto Corsa Competizione</h3>
-
-        <p>
-          Reifendruck, Aero, Elektronik und Fahrwerk.
-        </p>
-      </button>
-
-    </section>
-
-    <section class="content-grid">
-
-      <div>
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">SETUP-DATENBANK</p>
-            <h2>Empfehlungen</h2>
-          </div>
-
-          <button
-            id="showFavorites"
-            class="ghost-btn"
-            type="button"
-          >
-            Nur Favoriten
-          </button>
+      <div class="hero-copy">
+        <span class="version-badge">VERSION 3.1</span>
+        <h2>Alle Rennspiel-Setups an einem Ort.</h2>
+        <p>Öffne GT7, F1 26 oder ACC und finde deine gespeicherten Empfehlungen ohne erneute Suche.</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="pages/gt7.html">GT7-Datenbank öffnen</a>
+          <button id="scrollGames" class="secondary-button" type="button">Alle Spiele ansehen</button>
         </div>
-
-        <div id="setupList" class="setup-list"></div>
-
-        <p id="emptyState" class="empty" hidden>
-          Keine passenden Setups gefunden.
-        </p>
       </div>
 
-      <aside class="side-panel">
+      <div class="dashboard-stats">
+        <article>
+          <strong id="gameCount">3</strong>
+          <span>Spiele</span>
+        </article>
+        <article>
+          <strong id="favoriteCount">0</strong>
+          <span>Favoriten</span>
+        </article>
+        <article>
+          <strong id="noteCount">0</strong>
+          <span>Notizen</span>
+        </article>
+      </div>
+    </section>
 
-        <p class="eyebrow">PERSÖNLICHER BEREICH</p>
+    <section class="search-panel">
+      <label for="dashboardSearch">Schnellsuche</label>
+      <div class="search-row">
+        <input id="dashboardSearch" type="search" placeholder="Spiel, Fahrzeug oder Funktion suchen …">
+        <button id="clearSearch" type="button">Zurücksetzen</button>
+      </div>
+    </section>
 
-        <h2>Eigene Notizen</h2>
+    <section id="gamesSection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SPIELE</p>
+          <h2>Wähle deine Datenbank</h2>
+        </div>
+        <span id="resultText">3 Bereiche</span>
+      </div>
 
-        <textarea
-          id="globalNotes"
-          placeholder="Zum Beispiel: Audi R8 auf Spa mit TKS 1 testen …"
-        ></textarea>
-
-        <button
-          id="saveNotes"
-          class="primary-btn"
-          type="button"
-        >
-          Notizen speichern
-        </button>
-
-        <p id="saveStatus" class="save-status"></p>
-
-        <hr>
-
-        <h3>Externe Setups</h3>
-
-        <p class="muted">
-          Öffne Sim Racing Setups direkt zum Vergleichen.
-        </p>
-
-        <a
-          class="link-btn"
-          href="https://simracingsetup.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Sim Racing Setups öffnen
+      <div id="gameGrid" class="game-grid">
+        <a class="game-card gt7-card" href="pages/gt7.html" data-search="gt7 gran turismo 7 autos strecken bremsbalance tks">
+          <div class="card-top">
+            <span class="game-code">GT7</span>
+            <span class="status ready">AKTIV</span>
+          </div>
+          <div class="card-icon">GT</div>
+          <h3>Gran Turismo 7</h3>
+          <p>Klasse → Hersteller → Fahrzeug → Strecke → Setup</p>
+          <ul>
+            <li>Bremsbalance und TKS</li>
+            <li>Eigene Notizen pro Strecke</li>
+            <li>Mehrere Setups pro Fahrzeug</li>
+          </ul>
+          <span class="open-label">Datenbank öffnen →</span>
         </a>
 
-      </aside>
+        <article class="game-card f1-card" data-search="f1 26 formula racing trocken regen controller lenkrad">
+          <div class="card-top">
+            <span class="game-code">F1 26</span>
+            <span class="status planned">IN ARBEIT</span>
+          </div>
+          <div class="card-icon">F1</div>
+          <h3>Formula Racing</h3>
+          <p>Strecken, Teams sowie Trocken- und Regen-Setups.</p>
+          <ul>
+            <li>Controller-Empfehlungen</li>
+            <li>Qualifying und Rennen</li>
+            <li>Direkte Setup-Vergleiche</li>
+          </ul>
+          <span class="open-label muted-label">Folgt in einer nächsten Version</span>
+        </article>
 
-    </section>
-
-  </main>
-
-  <template id="setupTemplate">
-
-    <article class="setup-card">
-
-      <div class="setup-top">
-
-        <div>
-          <span class="mini-badge"></span>
-
-          <h3 class="setup-title"></h3>
-
-          <p class="setup-subtitle"></p>
-        </div>
-
-        <button
-          class="fav-btn"
-          type="button"
-          aria-label="Favorit umschalten"
-        >
-          ☆
-        </button>
-
+        <article class="game-card acc-card" data-search="acc assetto corsa competizione gt3 reifendruck aero elektronik fahrwerk">
+          <div class="card-top">
+            <span class="game-code">ACC</span>
+            <span class="status planned">IN ARBEIT</span>
+          </div>
+          <div class="card-icon">ACC</div>
+          <h3>Assetto Corsa Competizione</h3>
+          <p>GT3-Setups mit Reifendruck, Aero, Elektronik und Fahrwerk.</p>
+          <ul>
+            <li>Fahrzeuge und Strecken</li>
+            <li>Trocken- und Regenbasis</li>
+            <li>Persönliche Anpassungen</li>
+          </ul>
+          <span class="open-label muted-label">Folgt in einer nächsten Version</span>
+        </article>
       </div>
 
-      <div class="setup-values"></div>
+      <p id="emptyState" class="empty-state" hidden>Keine passenden Bereiche gefunden.</p>
+    </section>
 
-      <p class="setup-tip"></p>
+    <section class="lower-grid">
+      <article class="utility-card">
+        <p class="eyebrow">FAVORITEN</p>
+        <h2>Schnellzugriff</h2>
+        <p>Deine in den Datenbanken markierten Favoriten werden automatisch lokal gespeichert.</p>
+        <button id="refreshStats" class="secondary-button" type="button">Statistik aktualisieren</button>
+      </article>
 
-    </article>
+      <article class="utility-card">
+        <p class="eyebrow">NOTIZEN</p>
+        <h2>Persönliche Einstellungen</h2>
+        <textarea id="dashboardNotes" placeholder="Allgemeine Racing-Notizen …"></textarea>
+        <button id="saveDashboardNotes" class="primary-button" type="button">Notizen speichern</button>
+        <p id="saveStatus" class="save-status"></p>
+      </article>
 
-  </template>
+      <article class="utility-card">
+        <p class="eyebrow">EXTERN</p>
+        <h2>Sim Racing Setups</h2>
+        <p>Öffne deine externe Setup-Seite zum Vergleichen zusätzlicher Einstellungen.</p>
+        <a class="external-link" href="https://simracingsetup.com/" target="_blank" rel="noopener">Website öffnen ↗</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Racing Setup Hub · Private Setup-Datenbank
+  </footer>
 
   <script src="js/app.js"></script>
-
 </body>
 </html>

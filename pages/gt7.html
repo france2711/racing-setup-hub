@@ -3,83 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GT7 Datenbank | Racing Setup Hub</title>
+  <title>GT7 Version 4.0 | Racing Setup Hub</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
-    .page{width:min(1200px,92vw);margin:auto;padding:24px 0 70px}
-    .back{display:inline-block;margin-bottom:20px;color:#fff;text-decoration:none;padding:11px 15px;background:#101722;border:1px solid #243044;border-radius:12px}
-    .hero{padding:30px;border-radius:22px;background:linear-gradient(135deg,#142b51,#101722);border:1px solid #243044;margin-bottom:22px}
-    .hero h1{margin:8px 0;font-size:clamp(2rem,5vw,4rem)}
-    .hero p{margin:0;color:#b7c2d1}
-    .search{width:100%;padding:15px 16px;margin-bottom:18px;background:#101722;color:#fff;border:1px solid #243044;border-radius:14px}
-    .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
-    .filter-btn{padding:12px 16px;background:#101722;color:#fff;border:1px solid #243044;border-radius:12px;font-weight:800;cursor:pointer}
-    .filter-btn.active{border-color:#ff2d2d;background:#192336}
-    .layout{display:grid;grid-template-columns:240px 320px minmax(0,1fr);gap:18px}
-    .panel{background:#101722;border:1px solid #243044;border-radius:18px;padding:18px}
-    .panel h2{margin-top:0}
-    .list{display:grid;gap:8px}
-    .list-btn{width:100%;text-align:left;padding:12px;background:#0b111b;color:#fff;border:1px solid #26344a;border-radius:10px;cursor:pointer}
-    .list-btn.active{border-color:#ff2d2d;background:#192336}
-    .details-empty{color:#9ba8ba}
-    .track-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
-    .track-btn{padding:10px 12px;background:#0b111b;color:#fff;border:1px solid #26344a;border-radius:10px;cursor:pointer}
-    .track-btn.active{border-color:#ff8a00}
-    .setup-box{background:#0b111b;border-radius:14px;padding:16px;margin-top:14px}
-    .setup-row{display:flex;justify-content:space-between;gap:20px;padding:9px 0;border-bottom:1px solid #202b3c}
-    .setup-row:last-child{border-bottom:0}
-    .note{width:100%;min-height:110px;margin-top:14px;padding:12px;color:#fff;background:#0b111b;border:1px solid #26344a;border-radius:12px;resize:vertical}
-    .save{width:100%;margin-top:10px;padding:12px;background:linear-gradient(90deg,#ff2d2d,#ff8a00);color:#fff;border:0;border-radius:11px;font-weight:800;cursor:pointer}
-    .status{min-height:18px;color:#79d99a}
-    @media(max-width:900px){.layout{grid-template-columns:1fr}.panel{padding:15px}}
+    .v4-page{width:min(1240px,94vw);margin:auto;padding:24px 0 70px}
+    .v4-top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:20px}
+    .back-link,.export-btn{padding:11px 15px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);text-decoration:none}
+    .v4-hero{padding:34px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,#142b51,var(--surface));margin-bottom:22px}
+    .v4-hero h1{font-size:clamp(2rem,5vw,4.2rem);margin:10px 0}
+    .v4-hero p{color:var(--muted)}
+    .v4-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+    .v4-stat{padding:15px;background:rgba(5,9,15,.5);border:1px solid var(--line);border-radius:14px}
+    .v4-stat strong{display:block;font-size:1.8rem}
+    .controls{display:grid;grid-template-columns:1fr 220px;gap:12px;margin-bottom:16px}
+    .controls input,.controls select{padding:14px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:13px}
+    .class-tabs{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}
+    .tab{padding:11px 15px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:11px;font-weight:800}
+    .tab.active{border-color:var(--red);background:var(--surface-2)}
+    .database{display:grid;grid-template-columns:230px 320px minmax(0,1fr);gap:16px}
+    .db-panel{padding:17px;background:var(--surface);border:1px solid var(--line);border-radius:18px}
+    .db-panel h2{margin-top:0}
+    .db-list{display:grid;gap:8px;max-height:650px;overflow:auto}
+    .db-btn{width:100%;padding:11px;text-align:left;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px}
+    .db-btn.active{border-color:var(--orange);background:var(--surface-2)}
+    .car-title-row{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
+    .fav-car{font-size:1.7rem;background:transparent;border:0;color:#ffd45c}
+    .track-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
+    .track-tab{padding:10px 12px;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px}
+    .track-tab.active{border-color:var(--red)}
+    .setup-card{padding:16px;background:var(--bg);border-radius:14px}
+    .setup-row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line)}
+    .setup-note{width:100%;min-height:105px;margin-top:14px;padding:12px;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:12px}
+    .save-note{width:100%;padding:12px;margin-top:9px;border:0;border-radius:11px;background:linear-gradient(90deg,var(--red),var(--orange));color:#fff;font-weight:900}
+    .empty{color:var(--muted)}
+    @media(max-width:900px){.database{grid-template-columns:1fr}.v4-stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-  <main class="page">
-    <a class="back" href="../index.html">← Zurück zum Dashboard</a>
+  <main class="v4-page">
+    <div class="v4-top">
+      <a class="back-link" href="../index.html">← Dashboard</a>
+      <button id="exportButton" class="export-btn">Daten sichern</button>
+    </div>
 
-    <section class="hero">
-      <span class="badge">GT7 · NEUE STRUKTUR</span>
-      <h1>Klasse → Hersteller → Fahrzeug → Strecke</h1>
-      <p>Jedes Fahrzeug wird nur einmal angezeigt. Die Strecken wählst du innerhalb des Fahrzeugs aus.</p>
+    <section class="v4-hero">
+      <span class="version-badge">GT7 · VERSION 4.0</span>
+      <h1>Deine GT7-Garage</h1>
+      <p>Klassen, Hersteller, Fahrzeuge, Strecken, Favoriten und eigene Notizen in einer Datenbank.</p>
+      <div class="v4-stats">
+        <article class="v4-stat"><strong id="carCount">0</strong><span>Fahrzeuge</span></article>
+        <article class="v4-stat"><strong id="setupCount">0</strong><span>Setups</span></article>
+        <article class="v4-stat"><strong id="manufacturerCount">0</strong><span>Hersteller</span></article>
+        <article class="v4-stat"><strong id="favoriteCount">0</strong><span>Favoriten</span></article>
+      </div>
     </section>
 
-    <input id="searchInput" class="search" type="search" placeholder="Fahrzeug, Hersteller oder Strecke suchen …">
+    <section class="controls">
+      <input id="searchInput" type="search" placeholder="Auto, Hersteller oder Strecke suchen …">
+      <select id="viewFilter">
+        <option value="all">Alle Fahrzeuge</option>
+        <option value="favorites">Nur Lieblingsautos</option>
+      </select>
+    </section>
 
-    <section id="classFilters" class="filters"></section>
+    <section id="classTabs" class="class-tabs"></section>
 
-    <section class="layout">
-      <aside class="panel">
+    <section class="database">
+      <aside class="db-panel">
         <h2>Hersteller</h2>
-        <div id="manufacturerList" class="list"></div>
+        <div id="manufacturerList" class="db-list"></div>
       </aside>
 
-      <aside class="panel">
+      <aside class="db-panel">
         <h2>Fahrzeuge</h2>
-        <div id="carList" class="list"></div>
+        <div id="carList" class="db-list"></div>
       </aside>
 
-      <section class="panel">
-        <div id="detailsEmpty" class="details-empty">Wähle links ein Fahrzeug aus.</div>
-
+      <section class="db-panel">
+        <div id="detailsEmpty" class="empty">Wähle ein Fahrzeug aus.</div>
         <div id="details" hidden>
-          <span id="carClass" class="badge"></span>
-          <h2 id="carName"></h2>
-          <p id="carManufacturer"></p>
+          <div class="car-title-row">
+            <div>
+              <span id="carClass" class="version-badge"></span>
+              <h2 id="carName"></h2>
+              <p id="carManufacturer"></p>
+            </div>
+            <button id="favoriteCar" class="fav-car" title="Lieblingsauto">☆</button>
+          </div>
 
-          <h3>Strecke wählen</h3>
+          <h3>Strecken</h3>
           <div id="trackTabs" class="track-tabs"></div>
+          <div id="setupDetails" class="setup-card"></div>
 
-          <div id="setupDetails" class="setup-box"></div>
-
-          <textarea id="setupNote" class="note" placeholder="Eigene Notiz zu diesem Fahrzeug und dieser Strecke …"></textarea>
-          <button id="saveNote" class="save">Notiz speichern</button>
-          <p id="noteStatus" class="status"></p>
+          <textarea id="setupNote" class="setup-note" placeholder="Eigene Notiz für dieses Setup …"></textarea>
+          <button id="saveNote" class="save-note">Notiz speichern</button>
+          <p id="noteStatus"></p>
         </div>
       </section>
     </section>
   </main>
-
   <script src="../js/gt7.js"></script>
 </body>
 </html>

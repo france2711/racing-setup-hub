@@ -1,10 +1,13 @@
 {
   "game": "Gran Turismo 7",
+  "version": "4.0",
   "classes": [
     "Gr.1",
     "Gr.2",
     "Gr.3",
-    "Gr.4"
+    "Gr.4",
+    "Gr.B",
+    "Gr.X"
   ],
   "cars": [
     {
@@ -12,13 +15,14 @@
       "class": "Gr.3",
       "manufacturer": "Audi",
       "name": "Audi R8 LMS Evo '19",
+      "favorite": false,
       "setups": [
         {
           "track": "Spa-Francorchamps",
           "brakeBalance": "-2",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Stabil bei schnellen Richtungswechseln. Curbs in Eau Rouge vorsichtig nutzen."
+          "tip": "Stabil bei schnellen Richtungswechseln. Curbs vorsichtig nutzen."
         },
         {
           "track": "Suzuka Circuit",
@@ -32,7 +36,7 @@
           "brakeBalance": "-2",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Beim Anbremsen möglichst gerade bleiben und Mauerkontakte vermeiden."
+          "tip": "Beim Anbremsen möglichst gerade bleiben."
         }
       ]
     },
@@ -41,35 +45,37 @@
       "class": "Gr.3",
       "manufacturer": "Porsche",
       "name": "Porsche 911 GT3 R (992)",
+      "favorite": false,
       "setups": [
         {
           "track": "Brands Hatch Grand Prix",
           "brakeBalance": "-1",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Vor schnellen Kurven früh vom Gas gehen, damit das Heck stabil bleibt."
+          "tip": "Vor schnellen Kurven früh vom Gas gehen."
         },
         {
           "track": "Suzuka Circuit",
           "brakeBalance": "-1",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Für Controller gut kontrollierbar. In langsamen Kurven nicht zu früh Vollgas geben."
+          "tip": "In langsamen Kurven nicht zu früh Vollgas geben."
         },
         {
           "track": "Watkins Glen Langstrecke",
           "brakeBalance": "-1",
           "tcs": "1",
           "tires": "Racing Medium",
-          "tip": "In schnellen Kurven mit kleinen Lenkbewegungen arbeiten."
+          "tip": "Mit kleinen Lenkbewegungen arbeiten."
         }
       ]
     },
     {
-      "id": "ferrari-458-italia-gt3",
+      "id": "ferrari-458-gt3",
       "class": "Gr.3",
       "manufacturer": "Ferrari",
       "name": "Ferrari 458 Italia GT3",
+      "favorite": false,
       "setups": [
         {
           "track": "Monza",
@@ -77,6 +83,61 @@
           "tcs": "2",
           "tires": "Racing Medium",
           "tip": "Für die Schikanen früh und gerade bremsen."
+        },
+        {
+          "track": "Spa-Francorchamps",
+          "brakeBalance": "-2",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Beim Herausbeschleunigen TKS arbeiten lassen."
+        }
+      ]
+    },
+    {
+      "id": "mclaren-650s-gt3",
+      "class": "Gr.3",
+      "manufacturer": "McLaren",
+      "name": "McLaren 650S GT3",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Spa-Francorchamps",
+          "brakeBalance": "-1",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Sehr neutral. In schnellen Kurven nicht abrupt vom Gas gehen."
+        }
+      ]
+    },
+    {
+      "id": "mercedes-amg-gt3",
+      "class": "Gr.3",
+      "manufacturer": "Mercedes-AMG",
+      "name": "Mercedes-AMG GT3",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Nürburgring GP",
+          "brakeBalance": "-2",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Stabil beim Bremsen. Bremse sanft lösen."
+        }
+      ]
+    },
+    {
+      "id": "bmw-m6-gt3",
+      "class": "Gr.3",
+      "manufacturer": "BMW",
+      "name": "BMW M6 GT3",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Mount Panorama",
+          "brakeBalance": "-2",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Auf der Bergsektion ruhig und präzise lenken."
         }
       ]
     },
@@ -85,20 +146,53 @@
       "class": "Gr.2",
       "manufacturer": "Nissan",
       "name": "Nissan GT-R NISMO GT500 '16",
+      "favorite": false,
       "setups": [
         {
           "track": "Barcelona-Catalunya GP",
           "brakeBalance": "-2",
           "tcs": "1",
           "tires": "Racing Medium",
-          "tip": "Sehr gute Traktion. Hinterreifen in langen Kurven nicht überlasten."
+          "tip": "Hinterreifen in langen Kurven nicht überlasten."
         },
         {
           "track": "Suzuka Circuit",
           "brakeBalance": "-2",
           "tcs": "1",
           "tires": "Racing Medium",
-          "tip": "Hohe Kurvengeschwindigkeit nutzen, aber am Ausgang sanft beschleunigen."
+          "tip": "Hohe Kurvengeschwindigkeit nutzen."
+        }
+      ]
+    },
+    {
+      "id": "lexus-rcf-gt500-16",
+      "class": "Gr.2",
+      "manufacturer": "Lexus",
+      "name": "Lexus RC F GT500 '16",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Fuji Speedway",
+          "brakeBalance": "-1",
+          "tcs": "1",
+          "tires": "Racing Medium",
+          "tip": "Spät bremsen, aber das Heck am Kurveneingang ruhig halten."
+        }
+      ]
+    },
+    {
+      "id": "honda-nsx-concept-gt-16",
+      "class": "Gr.2",
+      "manufacturer": "Honda",
+      "name": "Honda NSX CONCEPT-GT '16",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Suzuka Circuit",
+          "brakeBalance": "-1",
+          "tcs": "1",
+          "tires": "Racing Medium",
+          "tip": "Saubere Linien durch die S-Kurven fahren."
         }
       ]
     },
@@ -107,20 +201,53 @@
       "class": "Gr.1",
       "manufacturer": "Porsche",
       "name": "Porsche 963",
+      "favorite": false,
       "setups": [
         {
           "track": "Watkins Glen Langstrecke",
           "brakeBalance": "-1",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Bei hoher Geschwindigkeit kleine und saubere Lenkkorrekturen verwenden."
+          "tip": "Kleine und saubere Lenkkorrekturen verwenden."
         },
         {
           "track": "Le Mans",
           "brakeBalance": "-1",
           "tcs": "2",
           "tires": "Racing Medium",
-          "tip": "Auf den langen Geraden früh hochschalten und beim Anbremsen stabil bleiben."
+          "tip": "Früh hochschalten und beim Anbremsen stabil bleiben."
+        }
+      ]
+    },
+    {
+      "id": "toyota-ts050",
+      "class": "Gr.1",
+      "manufacturer": "Toyota",
+      "name": "Toyota TS050 Hybrid '16",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Le Mans",
+          "brakeBalance": "-1",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Hybrid-Leistung kontrolliert einsetzen."
+        }
+      ]
+    },
+    {
+      "id": "mazda-lm55-vgt",
+      "class": "Gr.1",
+      "manufacturer": "Mazda",
+      "name": "Mazda LM55 Vision Gran Turismo",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Road Atlanta",
+          "brakeBalance": "-1",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Schnelle Richtungswechsel mit ruhigen Eingaben fahren."
         }
       ]
     },
@@ -129,13 +256,126 @@
       "class": "Gr.4",
       "manufacturer": "Porsche",
       "name": "Porsche Cayman GT4 Clubsport",
+      "favorite": false,
       "setups": [
         {
           "track": "Deep Forest Raceway",
           "brakeBalance": "-1",
           "tcs": "1",
           "tires": "Racing Medium",
-          "tip": "Schwung durch die mittelschnellen Kurven mitnehmen."
+          "tip": "Schwung durch mittelschnelle Kurven mitnehmen."
+        }
+      ]
+    },
+    {
+      "id": "nissan-gtr-gr4",
+      "class": "Gr.4",
+      "manufacturer": "Nissan",
+      "name": "Nissan GT-R Gr.4",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Fuji Speedway",
+          "brakeBalance": "-2",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Aus der letzten Kurve auf Traktion achten."
+        }
+      ]
+    },
+    {
+      "id": "audi-tt-cup-16",
+      "class": "Gr.4",
+      "manufacturer": "Audi",
+      "name": "Audi TT Cup '16",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Red Bull Ring",
+          "brakeBalance": "-1",
+          "tcs": "1",
+          "tires": "Racing Medium",
+          "tip": "Frontantrieb: Kurveneingang nicht überfahren."
+        }
+      ]
+    },
+    {
+      "id": "ferrari-458-gr4",
+      "class": "Gr.4",
+      "manufacturer": "Ferrari",
+      "name": "Ferrari 458 Italia Gr.4",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Monza",
+          "brakeBalance": "-1",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "Beim harten Anbremsen gerade bleiben."
+        }
+      ]
+    },
+    {
+      "id": "ford-mustang-gr4",
+      "class": "Gr.4",
+      "manufacturer": "Ford",
+      "name": "Ford Mustang Gr.4",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Laguna Seca",
+          "brakeBalance": "-2",
+          "tcs": "2",
+          "tires": "Racing Medium",
+          "tip": "In der Corkscrew früh einlenken."
+        }
+      ]
+    },
+    {
+      "id": "subaru-wrx-gr4",
+      "class": "Gr.4",
+      "manufacturer": "Subaru",
+      "name": "Subaru WRX Gr.4",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Dragon Trail Küste",
+          "brakeBalance": "-1",
+          "tcs": "1",
+          "tires": "Racing Medium",
+          "tip": "Allradtraktion am Kurvenausgang nutzen."
+        }
+      ]
+    },
+    {
+      "id": "red-bull-x2019",
+      "class": "Gr.X",
+      "manufacturer": "Red Bull",
+      "name": "Red Bull X2019 Competition",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Spa-Francorchamps",
+          "brakeBalance": "-1",
+          "tcs": "2",
+          "tires": "Racing Soft",
+          "tip": "Hoher Abtrieb: schnelle Kurven mit Vertrauen fahren."
+        }
+      ]
+    },
+    {
+      "id": "nissan-gtr-grb",
+      "class": "Gr.B",
+      "manufacturer": "Nissan",
+      "name": "Nissan GT-R Gr.B Rally Car",
+      "favorite": false,
+      "setups": [
+        {
+          "track": "Sardegna Windmills",
+          "brakeBalance": "0",
+          "tcs": "3",
+          "tires": "Dirt",
+          "tip": "Auf losem Untergrund früh gegenlenken."
         }
       ]
     }
