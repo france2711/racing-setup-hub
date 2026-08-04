@@ -1,1 +1,202 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0f17"><title>Racing Setup Hub</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="css/style.css"></head><body><header class="topbar"><div><p class="eyebrow">PERSONAL RACING DATABASE</p><h1>Racing Setup Hub</h1></div><button id="installBtn" class="ghost-btn" hidden>App installieren</button></header><main class="shell"><section class="hero"><div><span class="badge">Version 2.0</span><h2>Deine Setups. Deine Strecken. Sofort griffbereit.</h2><p>GT7, F1 26 und ACC in einer persönlichen Übersicht.</p></div><div class="hero-stat"><strong id="setupCount">0</strong><span>Setups gespeichert</span></div></section><section class="toolbar"><input id="searchInput" type="search" placeholder="Auto, Strecke oder Spiel suchen …"><select id="gameFilter"><option value="all">Alle Spiele</option><option value="GT7">Gran Turismo 7</option><option value="F1 26">F1 26</option><option value="ACC">ACC</option></select></section><section class="game-grid"><button class="game-card gt7" data-game="GT7"><span class="game-tag">GT7</span><h3>Gran Turismo 7</h3><p>Fahrzeuge, Strecken, Bremsbalance und TKS.</p></button><button class="game-card f1" data-game="F1 26"><span class="game-tag">F1 26</span><h3>Formula Racing</h3><p>Trocken-, Regen- und Controller-Setups.</p></button><button class="game-card acc" data-game="ACC"><span class="game-tag">ACC</span><h3>Assetto Corsa Competizione</h3><p>Reifendruck, Aero, Elektronik und Fahrwerk.</p></button></section><section class="content-grid"><div><div class="section-head"><div><p class="eyebrow">SETUP-DATENBANK</p><h2>Empfehlungen</h2></div><button id="showFavorites" class="ghost-btn">Nur Favoriten</button></div><div id="setupList" class="setup-list"></div><p id="emptyState" class="empty" hidden>Keine passenden Setups gefunden.</p></div><aside class="side-panel"><p class="eyebrow">PERSÖNLICHER BEREICH</p><h2>Eigene Notizen</h2><textarea id="globalNotes" placeholder="Zum Beispiel: Audi R8 auf Spa mit TKS 1 testen …"></textarea><button id="saveNotes" class="primary-btn">Notizen speichern</button><p id="saveStatus" class="save-status"></p><hr><h3>Externe Setups</h3><p class="muted">Öffne Sim Racing Setups direkt zum Vergleichen.</p><a class="link-btn" href="https://simracingsetup.com/" target="_blank" rel="noopener">Sim Racing Setups öffnen</a></aside></section></main><template id="setupTemplate"><article class="setup-card"><div class="setup-top"><div><span class="mini-badge"></span><h3 class="setup-title"></h3><p class="setup-subtitle"></p></div><button class="fav-btn" aria-label="Favorit umschalten">☆</button></div><div class="setup-values"></div><p class="setup-tip"></p></article></template><script src="js/app.js"></script></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Racing Setup Hub</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PERSONAL RACING DATABASE</p>
+      <h1>Racing Setup Hub</h1>
+    </div>
+  </header>
+
+  <main class="shell">
+
+    <section class="hero">
+      <div>
+        <span class="badge">Version 2.1</span>
+
+        <h2>
+          Deine Setups für GT7, F1 26 und ACC
+        </h2>
+
+        <p>
+          Wähle ein Spiel und öffne deine persönliche Setup-Datenbank.
+        </p>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Auto, Strecke oder Spiel suchen …"
+      >
+
+      <select id="gameFilter">
+        <option value="all">Alle Spiele</option>
+        <option value="GT7">Gran Turismo 7</option>
+        <option value="F1 26">F1 26</option>
+        <option value="ACC">ACC</option>
+      </select>
+    </section>
+
+    <section class="game-grid">
+
+      <a
+        class="game-card gt7"
+        href="pages/gt7.html"
+        style="text-decoration: none;"
+      >
+        <span class="game-tag">GT7</span>
+
+        <h3>Gran Turismo 7</h3>
+
+        <p>
+          Fahrzeuge, Strecken, Bremsbalance und TKS.
+        </p>
+      </a>
+
+      <button
+        class="game-card f1"
+        type="button"
+        data-game="F1 26"
+      >
+        <span class="game-tag">F1 26</span>
+
+        <h3>Formula Racing</h3>
+
+        <p>
+          Trocken-, Regen- und Controller-Setups.
+        </p>
+      </button>
+
+      <button
+        class="game-card acc"
+        type="button"
+        data-game="ACC"
+      >
+        <span class="game-tag">ACC</span>
+
+        <h3>Assetto Corsa Competizione</h3>
+
+        <p>
+          Reifendruck, Aero, Elektronik und Fahrwerk.
+        </p>
+      </button>
+
+    </section>
+
+    <section class="content-grid">
+
+      <div>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">SETUP-DATENBANK</p>
+            <h2>Empfehlungen</h2>
+          </div>
+
+          <button
+            id="showFavorites"
+            class="ghost-btn"
+            type="button"
+          >
+            Nur Favoriten
+          </button>
+        </div>
+
+        <div id="setupList" class="setup-list"></div>
+
+        <p id="emptyState" class="empty" hidden>
+          Keine passenden Setups gefunden.
+        </p>
+      </div>
+
+      <aside class="side-panel">
+
+        <p class="eyebrow">PERSÖNLICHER BEREICH</p>
+
+        <h2>Eigene Notizen</h2>
+
+        <textarea
+          id="globalNotes"
+          placeholder="Zum Beispiel: Audi R8 auf Spa mit TKS 1 testen …"
+        ></textarea>
+
+        <button
+          id="saveNotes"
+          class="primary-btn"
+          type="button"
+        >
+          Notizen speichern
+        </button>
+
+        <p id="saveStatus" class="save-status"></p>
+
+        <hr>
+
+        <h3>Externe Setups</h3>
+
+        <p class="muted">
+          Öffne Sim Racing Setups direkt zum Vergleichen.
+        </p>
+
+        <a
+          class="link-btn"
+          href="https://simracingsetup.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Sim Racing Setups öffnen
+        </a>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+  <template id="setupTemplate">
+
+    <article class="setup-card">
+
+      <div class="setup-top">
+
+        <div>
+          <span class="mini-badge"></span>
+
+          <h3 class="setup-title"></h3>
+
+          <p class="setup-subtitle"></p>
+        </div>
+
+        <button
+          class="fav-btn"
+          type="button"
+          aria-label="Favorit umschalten"
+        >
+          ☆
+        </button>
+
+      </div>
+
+      <div class="setup-values"></div>
+
+      <p class="setup-tip"></p>
+
+    </article>
+
+  </template>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>

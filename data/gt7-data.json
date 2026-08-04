@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gt7-r8-spa",
+    "class": "Gr.3",
+    "manufacturer": "Audi",
+    "car": "Audi R8 LMS Evo '19",
+    "track": "Spa-Francorchamps",
+    "brakeBalance": "-2",
+    "tcs": "2",
+    "tires": "Racing Medium",
+    "tip": "Stabil bei schnellen Richtungswechseln. Die Curbs in Eau Rouge vorsichtig nutzen."
+  },
+  {
+    "id": "gt7-r8-suzuka",
+    "class": "Gr.3",
+    "manufacturer": "Audi",
+    "car": "Audi R8 LMS Evo '19",
+    "track": "Suzuka Circuit",
+    "brakeBalance": "-1",
+    "tcs": "2",
+    "tires": "Racing Medium",
+    "tip": "In den S-Kurven ruhig lenken und beim Herausbeschleunigen das Gas langsam öffnen."
+  },
+  {
+    "id": "gt7-911-brands-hatch",
+    "class": "Gr.3",
+    "manufacturer": "Porsche",
+    "car": "Porsche 911 GT3 R (992)",
+    "track": "Brands Hatch Grand Prix",
+    "brakeBalance": "-1",
+    "tcs": "2",
+    "tires": "Racing Medium",
+    "tip": "Das Heck bleibt stabil, wenn du vor schnellen Kurven früh vom Gas gehst."
+  },
+  {
+    "id": "gt7-911-suzuka",
+    "class": "Gr.3",
+    "manufacturer": "Porsche",
+    "car": "Porsche 911 GT3 R (992)",
+    "track": "Suzuka Circuit",
+    "brakeBalance": "-1",
+    "tcs": "2",
+    "tires": "Racing Medium",
+    "tip": "Für Controller gut kontrollierbar. In langsamen Kurven nicht zu früh Vollgas geben."
+  },
+  {
+    "id": "gt7-gtr-catalunya",
+    "class": "Gr.2",
+    "manufacturer": "Nissan",
+    "car": "Nissan GT-R NISMO GT500 '16",
+    "track": "Barcelona-Catalunya GP",
+    "brakeBalance": "-2",
+    "tcs": "1",
+    "tires": "Racing Medium",
+    "tip": "Sehr gute Traktion. Die Hinterreifen in langen Kurven nicht überlasten."
+  },
+  {
+    "id": "gt7-963-watkins",
+    "class": "Gr.1",
+    "manufacturer": "Porsche",
+    "car": "Porsche 963",
+    "track": "Watkins Glen Langstrecke",
+    "brakeBalance": "-1",
+    "tcs": "2",
+    "tires": "Racing Medium",
+    "tip": "Bei hoher Geschwindigkeit kleine und saubere Lenkkorrekturen verwenden."
+  }
+]
