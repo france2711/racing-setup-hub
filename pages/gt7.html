@@ -3,218 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>GT7 Setups | Racing Setup Hub</title>
-
   <link rel="stylesheet" href="../css/style.css">
-
   <style>
-    .gt7-page {
-      width: min(1180px, 92vw);
-      margin: 0 auto;
-      padding: 30px 0 70px;
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 25px;
-      color: #ffffff;
-      text-decoration: none;
-      padding: 11px 16px;
-      border: 1px solid #243044;
-      border-radius: 12px;
-      background: #101722;
-    }
-
-    .gt7-header {
-      padding: 30px;
-      border: 1px solid #243044;
-      border-radius: 22px;
-      background: linear-gradient(135deg, #142b51, #101722);
-      margin-bottom: 25px;
-    }
-
-    .gt7-header h1 {
-      margin: 8px 0;
-      font-size: clamp(2rem, 5vw, 4rem);
-    }
-
-    .gt7-header p {
-      color: #b7c2d1;
-      margin-bottom: 0;
-    }
-
-    .gt7-toolbar {
-      display: grid;
-      grid-template-columns: 1fr 240px;
-      gap: 14px;
-      margin-bottom: 25px;
-    }
-
-    .gt7-toolbar input,
-    .gt7-toolbar select {
-      width: 100%;
-      padding: 15px;
-      color: white;
-      background: #101722;
-      border: 1px solid #243044;
-      border-radius: 14px;
-    }
-
-    .class-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 12px;
-      margin-bottom: 30px;
-    }
-
-    .class-button {
-      padding: 18px 10px;
-      color: white;
-      background: #101722;
-      border: 1px solid #243044;
-      border-radius: 15px;
-      font-weight: 800;
-      cursor: pointer;
-    }
-
-    .class-button:hover,
-    .class-button.active {
-      border-color: #ff2d2d;
-      background: #192336;
-    }
-
-    .car-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
-
-    .car-card {
-      padding: 20px;
-      background: #101722;
-      border: 1px solid #243044;
-      border-radius: 18px;
-    }
-
-    .car-card h3 {
-      margin: 8px 0;
-    }
-
-    .car-card p {
-      color: #9ba8ba;
-    }
-
-    .setup-box {
-      padding: 12px;
-      margin-top: 15px;
-      background: #090e16;
-      border-radius: 12px;
-    }
-
-    .setup-box div {
-      margin: 7px 0;
-    }
-
-    .favorite-button {
-      margin-top: 12px;
-      padding: 10px 13px;
-      color: #ffd45c;
-      background: transparent;
-      border: 1px solid #39465a;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-
-    .no-results {
-      display: none;
-      padding: 35px;
-      text-align: center;
-      color: #9ba8ba;
-    }
-
-    @media (max-width: 900px) {
-      .class-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .car-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .gt7-toolbar {
-        grid-template-columns: 1fr;
-      }
-    }
+    .gt7-page{width:min(1180px,92vw);margin:0 auto;padding:24px 0 70px}
+    .back-link{display:inline-block;margin-bottom:24px;color:#fff;text-decoration:none;padding:11px 16px;border:1px solid #243044;border-radius:12px;background:#101722}
+    .gt7-header{padding:30px;border:1px solid #243044;border-radius:22px;background:linear-gradient(135deg,#142b51,#101722);margin-bottom:24px}
+    .gt7-header h1{margin:8px 0;font-size:clamp(2rem,5vw,4rem)}
+    .gt7-header p{color:#b7c2d1;margin-bottom:0}
+    .gt7-toolbar{display:grid;grid-template-columns:1fr 240px;gap:14px;margin-bottom:18px}
+    .gt7-toolbar input,.gt7-toolbar select{width:100%;padding:15px;color:#fff;background:#101722;border:1px solid #243044;border-radius:14px}
+    .filter-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+    .class-button,.favorite-filter{padding:14px 18px;color:#fff;background:#101722;border:1px solid #243044;border-radius:14px;font-weight:800;cursor:pointer}
+    .class-button:hover,.class-button.active,.favorite-filter.active{border-color:#ff2d2d;background:#192336}
+    .summary{color:#9ba8ba;margin:0 0 18px}
+    .car-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .car-card{padding:20px;background:#101722;border:1px solid #243044;border-radius:18px}
+    .car-card h3{margin:8px 0}
+    .car-card .meta{color:#9ba8ba}
+    .setup-box{padding:12px;margin-top:15px;background:#090e16;border-radius:12px}
+    .setup-box div{margin:7px 0}
+    .tip{color:#b9c4d3;line-height:1.5}
+    .favorite-button,.save-note-button{margin-top:12px;padding:10px 13px;border:1px solid #39465a;border-radius:10px;cursor:pointer}
+    .favorite-button{color:#ffd45c;background:transparent}
+    .note-box{width:100%;min-height:90px;margin-top:14px;padding:12px;color:#fff;background:#0b111b;border:1px solid #2b3950;border-radius:12px;resize:vertical}
+    .save-note-button{width:100%;background:#1b2738;color:#fff}
+    .note-status{min-height:18px;margin:8px 0 0;color:#79d99a;font-size:.85rem}
+    .no-results{display:none;padding:35px;text-align:center;color:#9ba8ba}
+    @media(max-width:900px){.car-grid{grid-template-columns:1fr}.gt7-toolbar{grid-template-columns:1fr}}
   </style>
 </head>
-
 <body>
-
   <main class="gt7-page">
-
-    <a class="back-link" href="../index.html">
-      ← Zurück zum Dashboard
-    </a>
+    <a class="back-link" href="../index.html">← Zurück zum Dashboard</a>
 
     <section class="gt7-header">
-      <span class="badge">GRAN TURISMO 7</span>
-
+      <span class="badge">GRAN TURISMO 7 · VERSION 2.2</span>
       <h1>GT7 Setup-Datenbank</h1>
-
-      <p>
-        Wähle eine Fahrzeugklasse oder suche direkt nach einem Auto,
-        Hersteller oder einer Strecke.
-      </p>
+      <p>Filtere nach Klasse und Strecke, markiere Favoriten und speichere eigene Notizen zu jedem Setup.</p>
     </section>
 
     <section class="gt7-toolbar">
-
-      <input
-        id="gt7Search"
-        type="search"
-        placeholder="Auto, Hersteller oder Strecke suchen …"
-      >
-
-      <select id="trackFilter">
-        <option value="all">Alle Strecken</option>
-      </select>
-
+      <input id="gt7Search" type="search" placeholder="Auto, Hersteller oder Strecke suchen …">
+      <select id="trackFilter"><option value="all">Alle Strecken</option></select>
     </section>
 
-    <section class="class-grid">
-
-      <button class="class-button active" data-class="all">
-        Alle
-      </button>
-
-      <button class="class-button" data-class="Gr.1">
-        Gr.1
-      </button>
-
-      <button class="class-button" data-class="Gr.2">
-        Gr.2
-      </button>
-
-      <button class="class-button" data-class="Gr.3">
-        Gr.3
-      </button>
-
-      <button class="class-button" data-class="Gr.4">
-        Gr.4
-      </button>
-
+    <section class="filter-row">
+      <button class="class-button active" data-class="all">Alle</button>
+      <button class="class-button" data-class="Gr.1">Gr.1</button>
+      <button class="class-button" data-class="Gr.2">Gr.2</button>
+      <button class="class-button" data-class="Gr.3">Gr.3</button>
+      <button class="class-button" data-class="Gr.4">Gr.4</button>
+      <button id="favoriteFilter" class="favorite-filter">☆ Nur Favoriten</button>
     </section>
 
+    <p id="resultSummary" class="summary"></p>
     <section id="carList" class="car-grid"></section>
-
-    <p id="noResults" class="no-results">
-      Keine passenden GT7-Setups gefunden.
-    </p>
-
+    <p id="noResults" class="no-results">Keine passenden GT7-Setups gefunden.</p>
   </main>
 
   <script src="../js/gt7.js"></script>
-
 </body>
 </html>
