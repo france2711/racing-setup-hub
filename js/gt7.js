@@ -1,144 +1,196 @@
-let gt7Setups = [];
-
-const gt7State = {
+const state = {
+  data: null,
   selectedClass: "all",
-  selectedTrack: "all",
-  searchText: "",
-  onlyFavorites: false,
-  favorites: new Set(JSON.parse(localStorage.getItem("gt7-favorites") || "[]"))
+  selectedManufacturer: null,
+  selectedCarId: null,
+  selectedTrack: null,
+  search: ""
 };
 
+const classFilters = document.querySelector("#classFilters");
+const manufacturerList = document.querySelector("#manufacturerList");
 const carList = document.querySelector("#carList");
-const searchInput = document.querySelector("#gt7Search");
-const trackFilter = document.querySelector("#trackFilter");
-const noResults = document.querySelector("#noResults");
-const favoriteFilter = document.querySelector("#favoriteFilter");
-const resultSummary = document.querySelector("#resultSummary");
+const details = document.querySelector("#details");
+const detailsEmpty = document.querySelector("#detailsEmpty");
+const trackTabs = document.querySelector("#trackTabs");
+const setupDetails = document.querySelector("#setupDetails");
+const setupNote = document.querySelector("#setupNote");
+const noteStatus = document.querySelector("#noteStatus");
 
-async function loadGT7Data() {
-  try {
-    const response = await fetch("../data/gt7-data.json");
-    if (!response.ok) throw new Error("GT7-Daten konnten nicht geladen werden.");
-    gt7Setups = await response.json();
-    createTrackOptions();
-    renderGT7Setups();
-  } catch (error) {
-    console.error(error);
-    noResults.style.display = "block";
-    noResults.textContent = "Die GT7-Daten konnten nicht geladen werden.";
+async function init() {
+  const response = await fetch("../data/gt7-data.json");
+  state.data = await response.json();
+  renderClassFilters();
+  syncSelection();
+  renderAll();
+}
+
+function filteredCars() {
+  const q = state.search.trim().toLowerCase();
+
+  return state.data.cars.filter(car => {
+    const matchesClass = state.selectedClass === "all" || car.class === state.selectedClass;
+    const searchable = `${car.manufacturer} ${car.name} ${car.setups.map(s => s.track).join(" ")}`.toLowerCase();
+    return matchesClass && (!q || searchable.includes(q));
+  });
+}
+
+function syncSelection() {
+  const cars = filteredCars();
+  const manufacturers = [...new Set(cars.map(c => c.manufacturer))].sort();
+
+  if (!manufacturers.includes(state.selectedManufacturer)) {
+    state.selectedManufacturer = manufacturers[0] || null;
+  }
+
+  const manufacturerCars = cars.filter(c => c.manufacturer === state.selectedManufacturer);
+
+  if (!manufacturerCars.some(c => c.id === state.selectedCarId)) {
+    state.selectedCarId = manufacturerCars[0]?.id || null;
+  }
+
+  const car = state.data.cars.find(c => c.id === state.selectedCarId);
+
+  if (!car || !car.setups.some(s => s.track === state.selectedTrack)) {
+    state.selectedTrack = car?.setups[0]?.track || null;
   }
 }
 
-function createTrackOptions() {
-  trackFilter.innerHTML = '<option value="all">Alle Strecken</option>';
-  [...new Set(gt7Setups.map(setup => setup.track))]
-    .sort((a,b) => a.localeCompare(b))
-    .forEach(track => {
-      const option = document.createElement("option");
-      option.value = track;
-      option.textContent = track;
-      trackFilter.appendChild(option);
-    });
-}
+function renderClassFilters() {
+  classFilters.innerHTML = "";
 
-function getFilteredSetups() {
-  const search = gt7State.searchText.toLowerCase().trim();
-  return gt7Setups.filter(setup => {
-    const matchesClass = gt7State.selectedClass === "all" || setup.class === gt7State.selectedClass;
-    const matchesTrack = gt7State.selectedTrack === "all" || setup.track === gt7State.selectedTrack;
-    const searchableText = `${setup.class} ${setup.manufacturer} ${setup.car} ${setup.track}`.toLowerCase();
-    const matchesSearch = search === "" || searchableText.includes(search);
-    const matchesFavorite = !gt7State.onlyFavorites || gt7State.favorites.has(setup.id);
-    return matchesClass && matchesTrack && matchesSearch && matchesFavorite;
+  ["all", ...state.data.classes].forEach(className => {
+    const button = document.createElement("button");
+    button.className = `filter-btn ${state.selectedClass === className ? "active" : ""}`;
+    button.textContent = className === "all" ? "Alle Klassen" : className;
+
+    button.addEventListener("click", () => {
+      state.selectedClass = className;
+      state.selectedManufacturer = null;
+      state.selectedCarId = null;
+      state.selectedTrack = null;
+      syncSelection();
+      renderAll();
+    });
+
+    classFilters.appendChild(button);
   });
 }
 
-function renderGT7Setups() {
+function renderManufacturers() {
+  manufacturerList.innerHTML = "";
+  const manufacturers = [...new Set(filteredCars().map(c => c.manufacturer))].sort();
+
+  manufacturers.forEach(name => {
+    const button = document.createElement("button");
+    button.className = `list-btn ${state.selectedManufacturer === name ? "active" : ""}`;
+    button.textContent = name;
+
+    button.addEventListener("click", () => {
+      state.selectedManufacturer = name;
+      state.selectedCarId = null;
+      state.selectedTrack = null;
+      syncSelection();
+      renderAll();
+    });
+
+    manufacturerList.appendChild(button);
+  });
+
+  if (!manufacturers.length) manufacturerList.textContent = "Keine Hersteller gefunden.";
+}
+
+function renderCars() {
   carList.innerHTML = "";
-  const filteredSetups = getFilteredSetups();
+  const cars = filteredCars().filter(c => c.manufacturer === state.selectedManufacturer);
 
-  resultSummary.textContent = `${filteredSetups.length} von ${gt7Setups.length} Setups angezeigt`;
-  noResults.style.display = filteredSetups.length === 0 ? "block" : "none";
+  cars.forEach(car => {
+    const button = document.createElement("button");
+    button.className = `list-btn ${state.selectedCarId === car.id ? "active" : ""}`;
+    button.textContent = car.name;
 
-  filteredSetups.forEach(setup => {
-    const card = document.createElement("article");
-    card.className = "car-card";
-    const isFavorite = gt7State.favorites.has(setup.id);
-    const noteKey = `gt7-note-${setup.id}`;
-    const savedNote = localStorage.getItem(noteKey) || "";
-
-    card.innerHTML = `
-      <span class="mini-badge">${setup.class}</span>
-      <h3>${setup.car}</h3>
-      <p class="meta">${setup.manufacturer} · ${setup.track}</p>
-      <div class="setup-box">
-        <div><strong>Bremsbalance:</strong> ${setup.brakeBalance}</div>
-        <div><strong>TKS:</strong> ${setup.tcs}</div>
-        <div><strong>Reifen:</strong> ${setup.tires}</div>
-      </div>
-      <p class="tip">${setup.tip}</p>
-      <button class="favorite-button" data-id="${setup.id}">
-        ${isFavorite ? "★ Favorit" : "☆ Favorit hinzufügen"}
-      </button>
-      <textarea class="note-box" data-note-id="${setup.id}" placeholder="Eigene Notiz zu diesem Setup …">${savedNote}</textarea>
-      <button class="save-note-button" data-note-id="${setup.id}">Notiz speichern</button>
-      <p class="note-status" data-status-id="${setup.id}"></p>
-    `;
-    carList.appendChild(card);
-  });
-
-  activateFavoriteButtons();
-  activateNoteButtons();
-}
-
-function activateFavoriteButtons() {
-  document.querySelectorAll(".favorite-button").forEach(button => {
     button.addEventListener("click", () => {
-      const id = button.dataset.id;
-      gt7State.favorites.has(id) ? gt7State.favorites.delete(id) : gt7State.favorites.add(id);
-      localStorage.setItem("gt7-favorites", JSON.stringify([...gt7State.favorites]));
-      renderGT7Setups();
+      state.selectedCarId = car.id;
+      state.selectedTrack = car.setups[0]?.track || null;
+      renderAll();
     });
+
+    carList.appendChild(button);
   });
+
+  if (!cars.length) carList.textContent = "Keine Fahrzeuge gefunden.";
 }
 
-function activateNoteButtons() {
-  document.querySelectorAll(".save-note-button").forEach(button => {
+function renderDetails() {
+  const car = state.data.cars.find(c => c.id === state.selectedCarId);
+
+  if (!car) {
+    details.hidden = true;
+    detailsEmpty.hidden = false;
+    return;
+  }
+
+  details.hidden = false;
+  detailsEmpty.hidden = true;
+
+  document.querySelector("#carClass").textContent = car.class;
+  document.querySelector("#carName").textContent = car.name;
+  document.querySelector("#carManufacturer").textContent = car.manufacturer;
+
+  trackTabs.innerHTML = "";
+
+  car.setups.forEach(setup => {
+    const button = document.createElement("button");
+    button.className = `track-btn ${state.selectedTrack === setup.track ? "active" : ""}`;
+    button.textContent = setup.track;
+
     button.addEventListener("click", () => {
-      const id = button.dataset.noteId;
-      const textarea = document.querySelector(`textarea[data-note-id="${id}"]`);
-      const status = document.querySelector(`[data-status-id="${id}"]`);
-      localStorage.setItem(`gt7-note-${id}`, textarea.value);
-      status.textContent = "Notiz gespeichert.";
-      setTimeout(() => status.textContent = "", 1600);
+      state.selectedTrack = setup.track;
+      renderDetails();
     });
+
+    trackTabs.appendChild(button);
   });
+
+  const setup = car.setups.find(s => s.track === state.selectedTrack);
+
+  setupDetails.innerHTML = `
+    <div class="setup-row"><strong>Bremsbalance</strong><span>${setup.brakeBalance}</span></div>
+    <div class="setup-row"><strong>TKS</strong><span>${setup.tcs}</span></div>
+    <div class="setup-row"><strong>Reifen</strong><span>${setup.tires}</span></div>
+    <p>${setup.tip}</p>
+  `;
+
+  const noteKey = `gt7-note-${car.id}-${setup.track}`;
+  setupNote.value = localStorage.getItem(noteKey) || "";
+  setupNote.dataset.noteKey = noteKey;
 }
 
-searchInput.addEventListener("input", e => {
-  gt7State.searchText = e.target.value;
-  renderGT7Setups();
+function renderAll() {
+  renderClassFilters();
+  renderManufacturers();
+  renderCars();
+  renderDetails();
+}
+
+document.querySelector("#searchInput").addEventListener("input", event => {
+  state.search = event.target.value;
+  state.selectedManufacturer = null;
+  state.selectedCarId = null;
+  state.selectedTrack = null;
+  syncSelection();
+  renderAll();
 });
 
-trackFilter.addEventListener("change", e => {
-  gt7State.selectedTrack = e.target.value;
-  renderGT7Setups();
+document.querySelector("#saveNote").addEventListener("click", () => {
+  if (!setupNote.dataset.noteKey) return;
+
+  localStorage.setItem(setupNote.dataset.noteKey, setupNote.value);
+  noteStatus.textContent = "Notiz gespeichert.";
+  setTimeout(() => noteStatus.textContent = "", 1600);
 });
 
-document.querySelectorAll(".class-button").forEach(button => {
-  button.addEventListener("click", () => {
-    document.querySelectorAll(".class-button").forEach(item => item.classList.remove("active"));
-    button.classList.add("active");
-    gt7State.selectedClass = button.dataset.class;
-    renderGT7Setups();
-  });
+init().catch(error => {
+  console.error(error);
+  detailsEmpty.textContent = "Die GT7-Daten konnten nicht geladen werden.";
 });
-
-favoriteFilter.addEventListener("click", () => {
-  gt7State.onlyFavorites = !gt7State.onlyFavorites;
-  favoriteFilter.classList.toggle("active", gt7State.onlyFavorites);
-  favoriteFilter.textContent = gt7State.onlyFavorites ? "★ Alle anzeigen" : "☆ Nur Favoriten";
-  renderGT7Setups();
-});
-
-loadGT7Data();
