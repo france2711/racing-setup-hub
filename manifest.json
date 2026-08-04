@@ -1,1 +1,8 @@
-{"name":"Racing Setup Hub"}
+{
+  "name": "Racing Setup Hub",
+  "short_name": "Setup Hub",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#0b0f17"
+}
