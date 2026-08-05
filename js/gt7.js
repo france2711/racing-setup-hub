@@ -324,9 +324,108 @@ function renderCars() {
   if (!filteredCars.length) {
     box.textContent = "Keine Fahrzeuge gefunden.";
   }
+}function getSetupOverrideKey(carId, track) {
+  return `gt7-setup-edit-${carId}-${track}`;
 }
 
-function renderDetails() {
+function getSetupOverride(carId, track) {
+  const saved = localStorage.getItem(
+    getSetupOverrideKey(carId, track)
+  );
+
+  if (!saved) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(saved);
+  } catch {
+    return null;
+  }
+}
+
+function getDisplayedSetup(car, originalSetup) {
+  const override = getSetupOverride(
+    car.id,
+    originalSetup.track
+  );
+
+  return override
+    ? { ...originalSetup, ...override }
+    : originalSetup;
+}
+
+function fillSetupEditor(setup) {
+  $("#editBrakeBalance").value =
+    setup.brakeBalance ?? 0;
+
+  $("#editTcs").value =
+    setup.tcs ?? 0;
+
+  $("#editTires").value =
+    setup.tires || "";
+
+  $("#editAbs").value =
+    setup.abs || "Standard";
+
+  $("#editAsm").value =
+    setup.asm || "Aus";
+
+  $("#editTip").value =
+    setup.tip || "";
+}
+
+function renderDetails()
+ {function getSetupOverrideKey(carId, track) {
+  return `gt7-setup-edit-${carId}-${track}`;
+}
+
+function getSetupOverride(carId, track) {
+  const saved = localStorage.getItem(
+    getSetupOverrideKey(carId, track)
+  );
+
+  if (!saved) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(saved);
+  } catch {
+    return null;
+  }
+}
+
+function getDisplayedSetup(car, originalSetup) {
+  const override = getSetupOverride(
+    car.id,
+    originalSetup.track
+  );
+
+  return override
+    ? { ...originalSetup, ...override }
+    : originalSetup;
+}
+
+function fillSetupEditor(setup) {
+  $("#editBrakeBalance").value =
+    setup.brakeBalance ?? 0;
+
+  $("#editTcs").value =
+    setup.tcs ?? 0;
+
+  $("#editTires").value =
+    setup.tires || "";
+
+  $("#editAbs").value =
+    setup.abs || "Standard";
+
+  $("#editAsm").value =
+    setup.asm || "Aus";
+
+  $("#editTip").value =
+    setup.tip || "";
+}
   const car = state.data.cars.find(
     item => item.id === state.carId
   );
@@ -454,52 +553,56 @@ function renderDetails() {
 
     return;
   }
-
+const displayedSetup =
+  getDisplayedSetup(car, setup);
  $("#selectedTrackName").textContent =
-  setup.track;
+  displayedSetup.track;
 
 $("#setupDetails").innerHTML = `
   <div class="setup-row">
     <strong>Bremsbalance</strong>
-    <span>${setup.brakeBalance}</span>
+    <span>${displayedSetup.brakeBalance}</span>
   </div>
 
   <div class="setup-row">
     <strong>TKS</strong>
-    <span>${setup.tcs}</span>
+    <span>${displayedSetup.tcs}</span>
   </div>
 
   <div class="setup-row">
     <strong>Reifen</strong>
-    <span>${setup.tires}</span>
+    <span>${displayedSetup.tires}</span>
   </div>
 
   <div class="setup-row">
     <strong>ABS</strong>
-    <span>${setup.abs || "Standard"}</span>
+    <span>${displayedSetup.abs || "Standard"}</span>
   </div>
 
   <div class="setup-row">
     <strong>ASM</strong>
-    <span>${setup.asm || "Aus"}</span>
+    <span>${displayedSetup.asm || "Aus"}</span>
   </div>
 
-  <p>${setup.tip || ""}</p>
+  <p>${displayedSetup.tip || ""}</p>
 `;
 
 $("#setupStability").textContent =
-  createStars(setup.ratings?.stability);
+  createStars(displayedSetup.ratings?.stability);
 
 $("#setupTurnIn").textContent =
-  createStars(setup.ratings?.turnIn);
+  createStars(displayedSetup.ratings?.turnIn);
 
 $("#setupTraction").textContent =
-  createStars(setup.ratings?.traction);
+  createStars(displayedSetup.ratings?.traction);
 
 $("#setupTireWear").textContent =
-  createStars(setup.ratings?.tireWear);
+  createStars(displayedSetup.ratings?.tireWear);
   const noteKey =
-  `gt7-note-${car.id}-${setup.track}`;
+  `gt7-note-${car.id}-${displayedSetup.track}`;
+ 
+  fillSetupEditor(displayedSetup);
+
 
 $("#setupNote").value =
   localStorage.getItem(noteKey) || "";
@@ -606,7 +709,97 @@ $("#exportButton").onclick = () => {
   link.click();
   URL.revokeObjectURL(link.href);
 };
+$("#toggleSetupEditor").onclick = () => {
+  const editor = $("#setupEditor");
 
+  editor.hidden = !editor.hidden;
+
+  $("#toggleSetupEditor").textContent =
+    editor.hidden
+      ? "✏️ Setup bearbeiten"
+      : "✖ Editor schließen";
+};
+
+$("#saveSetupEdit").onclick = () => {
+  const car = state.data?.cars.find(
+    item => item.id === state.carId
+  );
+
+  const originalSetup = car?.setups.find(
+    item => item.track === state.track
+  );
+
+  if (!car || !originalSetup) {
+    return;
+  }
+
+  const editedSetup = {
+    brakeBalance:
+      Number($("#editBrakeBalance").value),
+
+    tcs:
+      Number($("#editTcs").value),
+
+    tires:
+      $("#editTires").value.trim(),
+
+    abs:
+      $("#editAbs").value.trim(),
+
+    asm:
+      $("#editAsm").value.trim(),
+
+    tip:
+      $("#editTip").value.trim()
+  };
+
+  localStorage.setItem(
+    getSetupOverrideKey(
+      car.id,
+      originalSetup.track
+    ),
+    JSON.stringify(editedSetup)
+  );
+
+  $("#setupEditorStatus").textContent =
+    "Persönliches Setup gespeichert.";
+
+  renderDetails();
+
+  setTimeout(() => {
+    $("#setupEditorStatus").textContent = "";
+  }, 1800);
+};
+
+$("#resetSetupEdit").onclick = () => {
+  const car = state.data?.cars.find(
+    item => item.id === state.carId
+  );
+
+  const originalSetup = car?.setups.find(
+    item => item.track === state.track
+  );
+
+  if (!car || !originalSetup) {
+    return;
+  }
+
+  localStorage.removeItem(
+    getSetupOverrideKey(
+      car.id,
+      originalSetup.track
+    )
+  );
+
+  $("#setupEditorStatus").textContent =
+    "Original-Setup wiederhergestellt.";
+
+  renderDetails();
+
+  setTimeout(() => {
+    $("#setupEditorStatus").textContent = "";
+  }, 1800);
+};
 init().catch(error => {
   $("#detailsEmpty").textContent =
     "GT7-Daten konnten nicht geladen werden.";

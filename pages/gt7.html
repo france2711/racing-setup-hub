@@ -207,7 +207,94 @@
     </div>
   </div>
 </section>
+<button
+  id="toggleSetupEditor"
+  class="setup-editor-toggle"
+  type="button"
+>
+  ✏️ Setup bearbeiten
+</button>
 
+<section id="setupEditor" class="setup-editor" hidden>
+
+  <h3>Persönliches Setup bearbeiten</h3>
+
+  <div class="editor-grid">
+
+    <label>
+      Bremsbalance
+      <input
+        id="editBrakeBalance"
+        type="number"
+        min="-5"
+        max="5"
+      >
+    </label>
+
+    <label>
+      TKS
+      <input
+        id="editTcs"
+        type="number"
+        min="0"
+        max="5"
+      >
+    </label>
+
+    <label>
+      Reifen
+      <input
+        id="editTires"
+        type="text"
+      >
+    </label>
+
+    <label>
+      ABS
+      <input
+        id="editAbs"
+        type="text"
+      >
+    </label>
+
+    <label>
+      ASM
+      <input
+        id="editAsm"
+        type="text"
+      >
+    </label>
+
+    <label class="editor-full">
+      Persönlicher Tipp
+      <textarea id="editTip"></textarea>
+    </label>
+
+  </div>
+
+  <div class="editor-actions">
+
+    <button
+      id="saveSetupEdit"
+      class="editor-save"
+      type="button"
+    >
+      Änderungen speichern
+    </button>
+
+    <button
+      id="resetSetupEdit"
+      class="editor-reset"
+      type="button"
+    >
+      Original wiederherstellen
+    </button>
+
+  </div>
+
+  <p id="setupEditorStatus"></p>
+
+</section>
           <textarea id="setupNote" class="setup-note" placeholder="Eigene Notiz für dieses Setup …"></textarea>
           <button id="saveNote" class="save-note">Notiz speichern</button>
           <p id="noteStatus"></p>
