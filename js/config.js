@@ -4,6 +4,13 @@
 const CONFIG = {
   tracksFile: "../data/gt7/tracks.json",
 
+  setupTemplateFiles: {
+    "Gr.1": "../data/gt7/setupTemplates/gr1.json",
+    "Gr.2": "../data/gt7/setupTemplates/gr2.json",
+    "Gr.3": "../data/gt7/setupTemplates/gr3.json",
+    "Gr.4": "../data/gt7/setupTemplates/gr4.json"
+  },
+
   gt7Files: [
     "../data/gt7/manufacturers/abarth.json",
     "../data/gt7/manufacturers/afeela.json",

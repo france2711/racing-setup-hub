@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GT7 Version 4.7.5 | Racing Setup Hub</title>
+  <title>GT7 Version 5.1 | Racing Setup Hub</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .v4-page{width:min(1240px,94vw);margin:auto;padding:24px 0 70px}
@@ -43,11 +43,15 @@
   <main class="v4-page">
     <div class="v4-top">
       <a class="back-link" href="../index.html">← Dashboard</a>
-      <button id="exportButton" class="export-btn">Daten sichern</button>
+      <div class="v4-top-actions">
+        <button id="toggleRaceCenter" class="race-center-open-btn" type="button">🏁 Race Center</button>
+        <button id="toggleComparison" class="compare-open-btn" type="button">⇄ Fahrzeuge vergleichen</button>
+        <button id="exportButton" class="export-btn">Daten sichern</button>
+      </div>
     </div>
 
     <section class="v4-hero">
-      <span class="version-badge">GT7 · VERSION 4.7.5</span>
+      <span class="version-badge">GT7 · VERSION 5.1</span>
       <h1>Deine GT7-Garage</h1>
       <p>Klassen, Hersteller, Fahrzeuge, Strecken, Favoriten und eigene Notizen in einer Datenbank.</p>
       <div class="v4-stats">
@@ -56,6 +60,283 @@
         <article class="v4-stat"><strong id="manufacturerCount">0</strong><span>Hersteller</span></article>
         <article class="v4-stat"><strong id="favoriteCount">0</strong><span>Favoriten</span></article>
       </div>
+    </section>
+
+
+
+
+    <section id="raceCenterSection" class="race-center-section" hidden>
+      <div class="race-center-heading">
+        <div>
+          <p class="eyebrow">VERSION 5.1</p>
+          <h2>Race Center</h2>
+          <p>Plane Distanz, Pflichtreifen, Startart, Wetter, Reifen- und Kraftstoffverbrauch.</p>
+        </div>
+        <button id="closeRaceCenter" class="race-center-close" type="button">✕ Schließen</button>
+      </div>
+
+      <div class="race-center-controls race-center-controls-v51">
+        <label>
+          Fahrzeugklasse
+          <select id="raceClass">
+            <option value="Gr.1">Gr.1</option>
+            <option value="Gr.2">Gr.2</option>
+            <option value="Gr.3" selected>Gr.3</option>
+            <option value="Gr.4">Gr.4</option>
+          </select>
+        </label>
+
+        <label>
+          Fahrzeug
+          <select id="raceCarSelect">
+            <option value="current">Aktuell ausgewähltes Fahrzeug</option>
+            <option value="auto">Automatisch</option>
+          </select>
+        </label>
+
+        <label>
+          Strecke
+          <select id="raceTrack"></select>
+        </label>
+
+        <label>
+          Distanz festlegen
+          <select id="raceDistanceMode">
+            <option value="time" selected>Nach Zeit</option>
+            <option value="laps">Nach Runden</option>
+          </select>
+        </label>
+
+        <label id="raceDurationLabel">
+          Renndauer
+          <select id="raceDuration">
+            <option value="10">10 Minuten</option>
+            <option value="20" selected>20 Minuten</option>
+            <option value="30">30 Minuten</option>
+            <option value="40">40 Minuten</option>
+            <option value="60">60 Minuten</option>
+            <option value="90">90 Minuten</option>
+          </select>
+        </label>
+
+        <label id="raceLapsLabel" hidden>
+          Rundenzahl
+          <input id="raceLaps" type="number" min="2" max="200" value="15">
+        </label>
+
+        <label>
+          Reifenverschleiß
+          <select id="raceTireMultiplier">
+            <option value="1">1×</option>
+            <option value="2">2×</option>
+            <option value="3" selected>3×</option>
+            <option value="4">4×</option>
+            <option value="6">6×</option>
+            <option value="8">8×</option>
+            <option value="12">12×</option>
+          </select>
+        </label>
+
+        <label>
+          Kraftstoffverbrauch
+          <select id="raceFuelMultiplier">
+            <option value="1">1×</option>
+            <option value="2">2×</option>
+            <option value="3" selected>3×</option>
+            <option value="4">4×</option>
+            <option value="6">6×</option>
+            <option value="8">8×</option>
+            <option value="12">12×</option>
+          </select>
+        </label>
+
+        <label>
+          Startart
+          <select id="raceStartType">
+            <option value="rolling" selected>Rolling Start</option>
+            <option value="grid">Grid Start</option>
+          </select>
+        </label>
+
+        <label>
+          Wetter
+          <select id="raceWeather">
+            <option value="dry" selected>Trocken</option>
+            <option value="changeable">Wechselhaft</option>
+            <option value="rain">Regen</option>
+          </select>
+        </label>
+
+        <label>
+          Pflichtreifen
+          <select id="raceMandatoryTires">
+            <option value="none" selected>Keine</option>
+            <option value="RM">Racing Medium</option>
+            <option value="RH">Racing Hard</option>
+            <option value="RS">Racing Soft</option>
+            <option value="RM+RH">Medium + Hard</option>
+            <option value="RS+RM">Soft + Medium</option>
+            <option value="RS+RH">Soft + Hard</option>
+          </select>
+        </label>
+
+        <label>
+          Pflichtboxenstopp
+          <select id="raceMandatoryStop">
+            <option value="no" selected>Nein</option>
+            <option value="yes">Ja</option>
+          </select>
+        </label>
+
+        <label>
+          Nachtanken
+          <select id="raceRefuelAllowed">
+            <option value="yes" selected>Erlaubt</option>
+            <option value="no">Nicht erlaubt</option>
+          </select>
+        </label>
+
+        <label>
+          Reifenwechsel
+          <select id="raceTireChangeRequired">
+            <option value="no" selected>Nicht verpflichtend</option>
+            <option value="yes">Verpflichtend</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="raceCenterEmpty" class="race-center-empty" hidden>
+        Für diese Auswahl wurde kein geeignetes Fahrzeug mit Setup gefunden.
+      </div>
+
+      <div id="raceCenterResults" class="race-center-results">
+        <article class="race-car-card">
+          <div class="race-car-head">
+            <img id="raceCarLogo" class="race-car-logo" alt="Herstellerlogo">
+            <div>
+              <span id="raceCarClass" class="version-badge"></span>
+              <h3 id="raceCarName"></h3>
+              <p id="raceCarManufacturer"></p>
+            </div>
+          </div>
+          <img id="raceCarImage" class="race-car-image" alt="Empfohlenes Fahrzeug">
+          <p id="raceCarReason" class="race-car-reason"></p>
+        </article>
+
+        <section class="race-strategy-card">
+          <div class="race-strategy-title">
+            <div>
+              <p class="eyebrow">BASISSTRATEGIE</p>
+              <h3 id="raceStrategyTrack">Strecke</h3>
+            </div>
+            <span id="raceDifficulty" class="race-difficulty">Controller 5/10</span>
+          </div>
+
+          <div class="race-strategy-grid race-strategy-grid-v51">
+            <div><span>Bremsbalance</span><strong id="raceBrakeBalance">–</strong></div>
+            <div><span>TKS</span><strong id="raceTcs">–</strong></div>
+            <div><span>Startreifen</span><strong id="raceTires">–</strong></div>
+            <div><span>Folgereifen</span><strong id="raceNextTires">–</strong></div>
+            <div><span>Boxenstopps</span><strong id="raceStops">–</strong></div>
+            <div><span>Boxenfenster</span><strong id="racePitWindow">–</strong></div>
+            <div><span>Fuel Map Start</span><strong id="raceFuelMapStart">–</strong></div>
+            <div><span>Fuel Map Rennen</span><strong id="raceFuelMapRace">–</strong></div>
+            <div><span>Fuel Map Sparen</span><strong id="raceFuelMapSave">–</strong></div>
+            <div><span>Start-Hinweis</span><strong id="raceStartAdvice">–</strong></div>
+            <div><span>Wetterplan</span><strong id="raceWeatherPlan">–</strong></div>
+            <div><span>Alternative</span><strong id="raceAlternative">–</strong></div>
+          </div>
+
+          <div class="race-strategy-notes">
+            <h4>Empfehlung</h4>
+            <p id="raceStrategyTip"></p>
+            <p id="raceStrategySource" class="setup-source-details"></p>
+          </div>
+        </section>
+      </div>
+
+      <p class="race-center-disclaimer">
+        Die Strategie ist eine Controller-orientierte Planungshilfe. Tatsächlicher Verbrauch, dynamisches Wetter und besondere Rennregeln können im Spiel abweichen.
+      </p>
+    </section>
+
+    <section id="comparisonSection" class="comparison-section" hidden>
+      <div class="comparison-heading">
+        <div>
+          <p class="eyebrow">VERSION 5.0.1</p>
+          <h2>Fahrzeugvergleich</h2>
+          <p>Vergleiche zwei Fahrzeuge auf derselben Strecke.</p>
+        </div>
+        <button id="closeComparison" class="comparison-close" type="button">✕ Schließen</button>
+      </div>
+
+      <div class="comparison-controls">
+        <label>
+          Fahrzeug A
+          <select id="compareCarA"></select>
+        </label>
+        <div class="comparison-vs">VS</div>
+        <label>
+          Fahrzeug B
+          <select id="compareCarB"></select>
+        </label>
+        <label class="comparison-track-control">
+          Gemeinsame Strecke
+          <select id="compareTrack"></select>
+        </label>
+      </div>
+
+      <div id="comparisonEmpty" class="comparison-empty" hidden>
+        Für diese beiden Fahrzeuge wurde keine gemeinsame Strecke gefunden.
+      </div>
+
+      <div id="comparisonResults" class="comparison-results">
+        <article class="comparison-car-card">
+          <div class="comparison-car-head">
+            <img id="compareLogoA" class="comparison-logo" alt="Herstellerlogo Fahrzeug A">
+            <div>
+              <span id="compareClassA" class="version-badge"></span>
+              <h3 id="compareNameA"></h3>
+              <p id="compareManufacturerA"></p>
+            </div>
+          </div>
+          <img id="compareImageA" class="comparison-car-image" alt="Fahrzeug A">
+        </article>
+
+        <div class="comparison-table-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr><th>Wert</th><th id="compareShortA">Fahrzeug A</th><th id="compareShortB">Fahrzeug B</th></tr>
+            </thead>
+            <tbody>
+              <tr><th>Bremsbalance</th><td id="compareBrakeA">–</td><td id="compareBrakeB">–</td></tr>
+              <tr><th>TKS</th><td id="compareTcsA">–</td><td id="compareTcsB">–</td></tr>
+              <tr><th>Reifen</th><td id="compareTiresA">–</td><td id="compareTiresB">–</td></tr>
+              <tr><th>ABS</th><td id="compareAbsA">–</td><td id="compareAbsB">–</td></tr>
+              <tr><th>ASM</th><td id="compareAsmA">–</td><td id="compareAsmB">–</td></tr>
+              <tr><th>Stabilität</th><td id="compareStabilityA">☆☆☆☆☆</td><td id="compareStabilityB">☆☆☆☆☆</td></tr>
+              <tr><th>Einlenken</th><td id="compareTurnInA">☆☆☆☆☆</td><td id="compareTurnInB">☆☆☆☆☆</td></tr>
+              <tr><th>Traktion</th><td id="compareTractionA">☆☆☆☆☆</td><td id="compareTractionB">☆☆☆☆☆</td></tr>
+              <tr><th>Reifenverschleiß</th><td id="compareWearA">☆☆☆☆☆</td><td id="compareWearB">☆☆☆☆☆</td></tr>
+              <tr><th>Quelle</th><td id="compareSourceA">–</td><td id="compareSourceB">–</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <article class="comparison-car-card">
+          <div class="comparison-car-head">
+            <img id="compareLogoB" class="comparison-logo" alt="Herstellerlogo Fahrzeug B">
+            <div>
+              <span id="compareClassB" class="version-badge"></span>
+              <h3 id="compareNameB"></h3>
+              <p id="compareManufacturerB"></p>
+            </div>
+          </div>
+          <img id="compareImageB" class="comparison-car-image" alt="Fahrzeug B">
+        </article>
+      </div>
+
+      <div id="comparisonRecommendation" class="comparison-recommendation"></div>
     </section>
 
     <section class="controls controls-advanced">

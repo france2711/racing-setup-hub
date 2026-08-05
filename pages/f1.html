@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>F1 26 Online Version 1.0.1 | Racing Setup Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/f1.css">
+</head>
+<body class="f1-body">
+  <main class="f1-page">
+    <header class="f1-top">
+      <a href="../index.html" class="f1-back">← Dashboard</a>
+      <div class="f1-top-actions">
+        <button id="copySetup" class="f1-action" type="button">📋 Setup kopieren</button>
+        <button id="favoriteTrack" class="f1-favorite" type="button" title="Strecke favorisieren">☆</button>
+      </div>
+    </header>
+
+    <section class="f1-hero">
+      <div>
+        <span class="f1-version">F1 25 · 2026 SEASON PACK · ONLINE HUB 1.0.1</span>
+        <h1>F1 26 Online Setups</h1>
+        <p>Controller-Setups für Qualifying, 5 Runden sowie 25 %, 50 %, 100 % und Regen.</p>
+      </div>
+      <div class="f1-hero-stats">
+        <article><strong id="f1TrackCount">0</strong><span>Strecken</span></article>
+        <article><strong>6</strong><span>Setup-Arten</span></article>
+        <article><strong id="f1FavoriteCount">0</strong><span>Favoriten</span></article>
+      </div>
+    </section>
+
+    <section class="f1-toolbar">
+      <input id="f1Search" type="search" placeholder="Strecke suchen, z. B. Monza, Spa oder Madrid …">
+      <select id="f1FavoriteFilter">
+        <option value="all">Alle Strecken</option>
+        <option value="favorites">Nur Favoriten</option>
+      </select>
+    </section>
+
+    <section class="f1-layout">
+      <aside class="f1-track-panel">
+        <h2>Strecken</h2>
+        <p id="f1ResultText" class="f1-muted"></p>
+        <div id="f1TrackList" class="f1-track-list"></div>
+      </aside>
+
+      <section class="f1-content">
+        <div class="f1-track-title">
+          <div>
+            <span id="f1Flag" class="f1-flag"></span>
+            <p id="f1Circuit" class="f1-muted"></p>
+            <h2 id="f1TrackName"></h2>
+          </div>
+          <span class="f1-controller-badge">🎮 Controller</span>
+        </div>
+
+        <nav id="f1ModeTabs" class="f1-mode-tabs"></nav>
+
+        <div class="f1-setup-grid">
+          <article class="f1-setup-card"><h3>Aerodynamik</h3><div id="f1Aero"></div></article>
+          <article class="f1-setup-card"><h3>Getriebe</h3><div id="f1Transmission"></div></article>
+          <article class="f1-setup-card"><h3>Radgeometrie</h3><div id="f1Geometry"></div></article>
+          <article class="f1-setup-card"><h3>Fahrwerk</h3><div id="f1Suspension"></div></article>
+          <article class="f1-setup-card"><h3>Bremsen</h3><div id="f1Brakes"></div></article>
+          <article class="f1-setup-card"><h3>Reifendruck</h3><div id="f1Tyres"></div></article>
+        </div>
+
+        <section class="f1-strategy">
+          <div><span>Startreifen</span><strong id="f1StartTyre"></strong></div>
+          <div><span>Boxenstopps</span><strong id="f1Stops"></strong></div>
+          <div><span>Boxenstopp-Runde</span><strong id="f1Window"></strong></div>
+          <div><span>ERS</span><strong id="f1Ers"></strong></div>
+          <div id="f1TyreFlow" class="tyre-flow"></div><p id="f1StrategyTip"></p>
+        </section>
+
+        <section class="f1-ratings">
+          <div><span>Stabilität</span><strong id="f1RatingStability"></strong></div>
+          <div><span>Einlenken</span><strong id="f1RatingTurnIn"></strong></div>
+          <div><span>Traktion</span><strong id="f1RatingTraction"></strong></div>
+          <div><span>Reifen</span><strong id="f1RatingWear"></strong></div>
+          <div><span>Controller</span><strong id="f1RatingController"></strong></div>
+        </section>
+
+        <section class="f1-notes">
+          <h3>Eigene Notiz</h3>
+          <textarea id="f1Note" placeholder="Notiz für diese Strecke und Setup-Art …"></textarea>
+          <button id="saveF1Note" type="button">Notiz speichern</button>
+          <p id="f1NoteStatus"></p>
+        </section>
+
+        <p id="copyStatus" class="f1-copy-status"></p>
+        <p class="f1-disclaimer">Basisempfehlungen für Controller. Feintuning kann je nach Fahrstil, Equal Performance und Patchstand nötig sein.</p>
+      </section>
+    </section>
+  </main>
+  <script src="../js/f1.js"></script>
+</body>
+</html>

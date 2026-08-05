@@ -1,0 +1,1938 @@
+{
+  "24 Heures du Mans": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "24 Heures du Mans – Ohne Schikanen": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Alsace – Village": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Alsace – Village Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Alsace – Test Course": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Alsace – Test Course Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Gesamtstrecke": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Gesamtstrecke Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Centre": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Centre Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East End": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East End Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West End": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West End Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autódromo de Interlagos": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Monza": {
+    "brakeBalance": -2,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Spät bremsen und die Traktion am Kurvenausgang nutzen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 5
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Monza – Ohne Schikane": {
+    "brakeBalance": -2,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Spät bremsen und die Traktion am Kurvenausgang nutzen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 5
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autopolis": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Autopolis – Kurzstrecke": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Barcelona-Catalunya GP": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Barcelona-Catalunya GP – Ohne Schikane": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Barcelona-Catalunya – National": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Barcelona-Catalunya – Rallycross": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay Speedway": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay Speedway Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield A": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield A Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield B": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield B Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Brands Hatch": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Brands Hatch – Indy": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Broad Bean Raceway": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Broad Bean Raceway Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix A": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix A Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix B": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix B Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix C": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix C Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Colorado Springs – Lake": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Colorado Springs – Lake Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Daytona – Tri-Oval": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Daytona – Road Course": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Deep Forest Raceway": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Deep Forest Raceway Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Dragon Trail – Seaside": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Dragon Trail – Seaside Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Dragon Trail – Gardens": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Dragon Trail – Gardens Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Eiger Nordwand": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Eiger Nordwand Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Fishermans Ranch": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Fishermans Ranch Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Fuji Speedway": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Fuji Speedway – Kurz": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Goodwood Motor Circuit": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Grand Valley – Highway 1": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Grand Valley – Highway 1 Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Grand Valley – South": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Grand Valley – South Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "High Speed Ring": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "High Speed Ring Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Miyabi": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa + Miyabi": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa + Miyabi Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "WeatherTech Raceway Laguna Seca": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Long Track": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Long Track Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Short Track": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Short Track Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Tri-Oval": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Lake Louise – Tri-Oval Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Mount Panorama Motor Racing Circuit": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Northern Isle Speedway": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring GP": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring Sprint": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring 24h": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring Endurance": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring Endurance II": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring Nordschleife": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Nürburgring Nordschleife – Touristenfahrten": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Red Bull Ring": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Red Bull Ring – Kurz": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Michelin Raceway Road Atlanta": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track A": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track A Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track B": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track B Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track C": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Road Track C Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Windmills": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Sardegna – Windmills Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als Basis: Gr.4 ist für diesen Untergrund nicht ausgelegt.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 3,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Spa": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Spa – 24h Layout": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Special Stage Route X": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Suzuka": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Suzuka – East Course": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ruhige Lenkbewegungen und früh ans Gas.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – Central Clockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – Central Counterclockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – East Clockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – East Counterclockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – South Clockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tokyo Expressway – South Counterclockwise": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Trial Mountain Circuit": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Trial Mountain Circuit Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Tsukuba Circuit": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Watkins Glen": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Watkins Glen – Short Course": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Willow Springs – Big Willow": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Willow Springs – Horse Thief Mile": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Willow Springs – Horse Thief Mile Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Willow Springs – Streets of Willow Springs": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Willow Springs – Streets of Willow Springs Rückwärts": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Circuit Gilles-Villeneuve": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  },
+  "Yas Marina Circuit": {
+    "brakeBalance": -1,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Gr.4-Controller-Basis.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.4 Basisempfehlung"
+  }
+}

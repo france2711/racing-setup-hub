@@ -1,0 +1,1938 @@
+{
+  "24 Heures du Mans": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "24 Heures du Mans – Ohne Schikanen": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Alsace – Village": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Alsace – Village Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Alsace – Test Course": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Alsace – Test Course Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Gesamtstrecke": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Gesamtstrecke Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Centre": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – Centre Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East End": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – East End Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West End": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autodrome Lago Maggiore – West End Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autódromo de Interlagos": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Monza": {
+    "brakeBalance": -3,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Monza – Ohne Schikane": {
+    "brakeBalance": -3,
+    "tcs": 1,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autopolis": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Autopolis – Kurzstrecke": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Barcelona-Catalunya GP": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Barcelona-Catalunya GP – Ohne Schikane": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Barcelona-Catalunya – National": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Barcelona-Catalunya – Rallycross": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay Speedway": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay Speedway Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield A": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield A Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield B": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Blue Moon Bay – Infield B Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Brands Hatch": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Brands Hatch – Indy": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Broad Bean Raceway": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Broad Bean Raceway Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix A": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix A Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix B": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix B Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix C": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit de Sainte-Croix C Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Colorado Springs – Lake": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Colorado Springs – Lake Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Daytona – Tri-Oval": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Daytona – Road Course": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Deep Forest Raceway": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Deep Forest Raceway Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Dragon Trail – Seaside": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Dragon Trail – Seaside Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Dragon Trail – Gardens": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Dragon Trail – Gardens Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Eiger Nordwand": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Eiger Nordwand Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Fishermans Ranch": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Fishermans Ranch Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Fuji Speedway": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Fuji Speedway – Kurz": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Goodwood Motor Circuit": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Grand Valley – Highway 1": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Grand Valley – Highway 1 Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Grand Valley – South": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Grand Valley – South Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "High Speed Ring": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "High Speed Ring Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Miyabi": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa + Miyabi": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Kyoto Driving Park – Yamagiwa + Miyabi Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "WeatherTech Raceway Laguna Seca": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Long Track": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Long Track Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Short Track": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Short Track Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Tri-Oval": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Lake Louise – Tri-Oval Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Mount Panorama Motor Racing Circuit": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Northern Isle Speedway": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring GP": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring Sprint": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring 24h": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring Endurance": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring Endurance II": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring Nordschleife": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Nürburgring Nordschleife – Touristenfahrten": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Red Bull Ring": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Red Bull Ring – Kurz": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Michelin Raceway Road Atlanta": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track A": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track A Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track B": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track B Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track C": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Road Track C Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Windmills": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Sardegna – Windmills Rückwärts": {
+    "brakeBalance": 0,
+    "tcs": 3,
+    "tires": "Dirt / Snow je nach Strecke",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Nur als vorsichtige Basis: Gr.3 ist für diesen Untergrund nicht ideal.",
+    "ratings": {
+      "stability": 3,
+      "turnIn": 2,
+      "traction": 3,
+      "tireWear": 3
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Spa": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Spa – 24h Layout": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Special Stage Route X": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Suzuka": {
+    "brakeBalance": -1,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Suzuka – East Course": {
+    "brakeBalance": -1,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – Central Clockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – Central Counterclockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Stabil bremsen, Mauerkontakte vermeiden und beim Herausbeschleunigen geduldig bleiben.",
+    "ratings": {
+      "stability": 5,
+      "turnIn": 3,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – East Clockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – East Counterclockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – South Clockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tokyo Expressway – South Counterclockwise": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Trial Mountain Circuit": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Trial Mountain Circuit Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Tsukuba Circuit": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Watkins Glen": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Watkins Glen – Short Course": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Willow Springs – Big Willow": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Willow Springs – Horse Thief Mile": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Willow Springs – Horse Thief Mile Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Willow Springs – Streets of Willow Springs": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Willow Springs – Streets of Willow Springs Rückwärts": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Ausgewogene Controller-Basis: ruhig lenken, früh bremsen und am Ausgang sanft beschleunigen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Circuit Gilles-Villeneuve": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Früh und möglichst gerade bremsen. In schnellen Kurven kleine, ruhige Lenkkorrekturen verwenden.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  },
+  "Yas Marina Circuit": {
+    "brakeBalance": -2,
+    "tcs": 2,
+    "tires": "Racing Medium",
+    "abs": "Standard",
+    "asm": "Aus",
+    "tip": "Sauber einlenken, die Bremse langsam lösen und am Kurvenausgang das Gas kontrolliert öffnen.",
+    "ratings": {
+      "stability": 4,
+      "turnIn": 4,
+      "traction": 4,
+      "tireWear": 4
+    },
+    "verified": false,
+    "source": "Racing Setup Hub – Gr.3 Basisempfehlung"
+  }
+}

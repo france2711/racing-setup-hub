@@ -514,3 +514,445 @@ footer{padding:24px;text-align:center;color:var(--muted);border-top:1px solid va
 .editor-reset { color:var(--text); background:var(--surface); border:1px solid var(--line); }
 #setupEditorStatus { min-height:18px; color:#79d99a; }
 @media(max-width:700px) { .editor-grid { grid-template-columns:1fr; } }
+
+
+/* Version 4.9.1 – Template- und Fahrzeugquellen */
+.setup-source-row span {
+  max-width: 62%;
+  text-align: right;
+  color: #8fe3b2;
+  font-weight: 800;
+}
+
+.setup-source-details {
+  margin-top: 10px;
+  padding: 10px 12px;
+  color: var(--muted);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+
+/* Version 5.0.1 – Fahrzeugvergleich */
+.v4-top-actions {
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.compare-open-btn,
+.comparison-close {
+  padding:11px 15px;
+  color:var(--text);
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:12px;
+  font-weight:850;
+}
+.compare-open-btn {
+  border-color:rgba(255,138,0,.55);
+}
+.comparison-section {
+  margin-bottom:24px;
+  padding:22px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+}
+.comparison-section[hidden] { display:none; }
+.comparison-heading {
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:flex-start;
+  margin-bottom:18px;
+}
+.comparison-heading h2,
+.comparison-heading p { margin-top:0; }
+.comparison-heading>div>p:last-child { color:var(--muted); }
+.comparison-controls {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  gap:12px;
+  align-items:end;
+  margin-bottom:20px;
+}
+.comparison-controls label {
+  display:grid;
+  gap:7px;
+  color:var(--muted);
+  font-size:.82rem;
+  font-weight:850;
+}
+.comparison-controls select {
+  width:100%;
+  min-width:0;
+  padding:12px;
+  color:var(--text);
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:11px;
+}
+.comparison-vs {
+  display:grid;
+  place-items:center;
+  width:48px;
+  height:48px;
+  color:#fff;
+  background:linear-gradient(135deg,var(--red),var(--orange));
+  border-radius:50%;
+  font-weight:950;
+}
+.comparison-track-control { grid-column:1/-1; }
+.comparison-results {
+  display:grid;
+  grid-template-columns:minmax(210px,.75fr) minmax(420px,1.5fr) minmax(210px,.75fr);
+  gap:14px;
+  align-items:stretch;
+}
+.comparison-car-card,
+.comparison-table-wrap {
+  padding:15px;
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:16px;
+}
+.comparison-car-head {
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  min-height:92px;
+}
+.comparison-car-head h3 { margin:8px 0 4px; font-size:1.05rem; }
+.comparison-car-head p { margin:0; color:var(--muted); }
+.comparison-logo {
+  width:52px;
+  height:52px;
+  object-fit:contain;
+}
+.comparison-car-image {
+  display:block;
+  width:100%;
+  height:180px;
+  margin-top:12px;
+  object-fit:cover;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:12px;
+}
+.comparison-table-wrap { overflow-x:auto; }
+.comparison-table {
+  width:100%;
+  border-collapse:collapse;
+  font-size:.9rem;
+}
+.comparison-table th,
+.comparison-table td {
+  padding:10px 9px;
+  border-bottom:1px solid var(--line);
+  text-align:center;
+  vertical-align:middle;
+}
+.comparison-table th:first-child { text-align:left; }
+.comparison-table thead th { color:var(--muted); }
+.comparison-table td[id*="Stability"],
+.comparison-table td[id*="TurnIn"],
+.comparison-table td[id*="Traction"],
+.comparison-table td[id*="Wear"] {
+  color:#ffd45c;
+  letter-spacing:1px;
+}
+.comparison-recommendation {
+  margin-top:16px;
+  padding:16px;
+  background:linear-gradient(135deg,rgba(32,121,74,.18),rgba(15,21,32,.95));
+  border:1px solid rgba(74,211,133,.35);
+  border-radius:14px;
+  line-height:1.55;
+}
+.comparison-recommendation strong { color:#7ee2a8; }
+.comparison-empty {
+  padding:18px;
+  color:var(--muted);
+  text-align:center;
+  border:1px dashed var(--line);
+  border-radius:14px;
+}
+@media(max-width:1050px) {
+  .comparison-results { grid-template-columns:1fr; }
+  .comparison-car-image { height:240px; }
+}
+@media(max-width:700px) {
+  .comparison-controls { grid-template-columns:1fr; }
+  .comparison-vs { margin:auto; }
+  .comparison-track-control { grid-column:auto; }
+  .comparison-heading { flex-direction:column; }
+  .v4-top { align-items:flex-start; }
+}
+
+
+/* Version 5.0.2 – Race Center */
+.race-center-open-btn,
+.race-center-close {
+  padding:11px 15px;
+  color:var(--text);
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:12px;
+  font-weight:850;
+}
+.race-center-open-btn {
+  border-color:rgba(74,211,133,.55);
+}
+.race-center-section {
+  margin-bottom:24px;
+  padding:22px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+}
+.race-center-section[hidden] {
+  display:none;
+}
+.race-center-heading {
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:flex-start;
+  margin-bottom:18px;
+}
+.race-center-heading h2,
+.race-center-heading p {
+  margin-top:0;
+}
+.race-center-heading>div>p:last-child {
+  color:var(--muted);
+}
+.race-center-controls {
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:12px;
+  margin-bottom:20px;
+}
+.race-center-controls label {
+  display:grid;
+  gap:7px;
+  color:var(--muted);
+  font-size:.82rem;
+  font-weight:850;
+}
+.race-center-controls select {
+  width:100%;
+  min-width:0;
+  padding:12px;
+  color:var(--text);
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:11px;
+}
+.race-center-results {
+  display:grid;
+  grid-template-columns:minmax(250px,.75fr) minmax(0,1.65fr);
+  gap:16px;
+}
+.race-car-card,
+.race-strategy-card {
+  padding:17px;
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:17px;
+}
+.race-car-head {
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+.race-car-head h3 {
+  margin:8px 0 4px;
+}
+.race-car-head p {
+  margin:0;
+  color:var(--muted);
+}
+.race-car-logo {
+  width:58px;
+  height:58px;
+  object-fit:contain;
+}
+.race-car-image {
+  display:block;
+  width:100%;
+  height:220px;
+  margin-top:14px;
+  object-fit:cover;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:13px;
+}
+.race-car-reason {
+  margin:14px 0 0;
+  color:var(--muted);
+  line-height:1.55;
+}
+.race-strategy-title {
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  align-items:flex-start;
+}
+.race-strategy-title h3 {
+  margin:0;
+  font-size:1.45rem;
+}
+.race-difficulty {
+  padding:8px 11px;
+  color:#7ee2a8;
+  background:rgba(45,190,105,.13);
+  border:1px solid rgba(74,211,133,.28);
+  border-radius:999px;
+  font-size:.78rem;
+  font-weight:900;
+}
+.race-strategy-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:11px;
+  margin-top:18px;
+}
+.race-strategy-grid>div {
+  padding:13px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:12px;
+}
+.race-strategy-grid span {
+  display:block;
+  margin-bottom:6px;
+  color:var(--muted);
+  font-size:.78rem;
+}
+.race-strategy-grid strong {
+  font-size:1rem;
+}
+.race-strategy-notes {
+  margin-top:15px;
+  padding:15px;
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:13px;
+}
+.race-strategy-notes h4 {
+  margin:0 0 8px;
+}
+.race-strategy-notes p {
+  margin:0;
+  line-height:1.6;
+}
+.race-strategy-notes .setup-source-details {
+  margin-top:11px;
+}
+.race-center-disclaimer {
+  margin:14px 0 0;
+  color:var(--muted);
+  font-size:.82rem;
+  line-height:1.5;
+}
+.race-center-empty {
+  padding:20px;
+  color:var(--muted);
+  text-align:center;
+  border:1px dashed var(--line);
+  border-radius:14px;
+}
+@media(max-width:1100px) {
+  .race-center-controls {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+@media(max-width:850px) {
+  .race-center-results {
+    grid-template-columns:1fr;
+  }
+  .race-strategy-grid {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+@media(max-width:600px) {
+  .race-center-controls,
+  .race-strategy-grid {
+    grid-template-columns:1fr;
+  }
+  .race-center-heading {
+    flex-direction:column;
+  }
+}
+
+
+/* Version 5.0.2.1 – manuelle Fahrzeugwahl */
+.race-center-controls {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+@media(max-width:900px) {
+  .race-center-controls {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+@media(max-width:600px) {
+  .race-center-controls {
+    grid-template-columns:1fr;
+  }
+}
+
+
+/* Version 5.1 – Intelligente Rennstrategie */
+.race-center-controls-v51 {
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+
+.race-center-controls-v51 input {
+  width:100%;
+  min-width:0;
+  padding:12px;
+  color:var(--text);
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:11px;
+}
+
+.race-center-controls-v51 label[hidden] {
+  display:none;
+}
+
+.race-strategy-grid-v51 {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+
+.race-strategy-grid-v51 strong {
+  display:block;
+  line-height:1.35;
+}
+
+@media(max-width:1100px) {
+  .race-center-controls-v51 {
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+
+@media(max-width:850px) {
+  .race-center-controls-v51,
+  .race-strategy-grid-v51 {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media(max-width:600px) {
+  .race-center-controls-v51,
+  .race-strategy-grid-v51 {
+    grid-template-columns:1fr;
+  }
+}
