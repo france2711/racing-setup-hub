@@ -1,0 +1,52 @@
+[
+  {
+    "id": "volkswagen-beetle-gr3",
+    "class": "Gr.3",
+    "manufacturer": "Volkswagen",
+    "name": "Volkswagen Beetle Gr.3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr gute Rotation und stabile Traktion."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": 0,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Ruhige Lenkbewegungen durch die S-Kurven."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Spät bremsen und sauber über die Schikanen fahren."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Gutmütige Controller-Basis."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": 0,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Auf den Curbs nicht zu aggressiv sein."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Schwung durch die schnellen Passagen mitnehmen."
+      }
+    ]
+  }
+]

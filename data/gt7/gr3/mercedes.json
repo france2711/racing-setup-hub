@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mercedes-amg-gt3-20",
+    "class": "Gr.3",
+    "manufacturer": "Mercedes-AMG",
+    "name": "Mercedes-AMG GT3 '20",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stabil beim Anbremsen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Ruhig durch die S-Kurven fahren."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Früh und gerade bremsen."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Die Bremse am Kurveneingang langsam lösen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Hohe Curbs vorsichtig nutzen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Am Ausgang sanft ans Gas gehen."
+      }
+    ]
+  }
+]

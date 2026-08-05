@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lexus-rc-f-gt3-17",
+    "class": "Gr.3",
+    "manufacturer": "Lexus",
+    "name": "Lexus RC F GT3 '17",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr gutmütige Controller-Basis."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Nicht zu aggressiv einlenken."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Curbs kontrolliert überfahren."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "In langsamen Kurven geduldig ans Gas gehen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Das höhere Gewicht berücksichtigen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Hinterreifen am Ausgang schonen."
+      }
+    ]
+  }
+]

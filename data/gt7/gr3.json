@@ -1,0 +1,31 @@
+[
+  {
+    "id": "audi-r8-lms-evo19",
+    "class": "Gr.3",
+    "manufacturer": "Audi",
+    "name": "Audi R8 LMS Evo '19",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Stabil in schnellen Richtungswechseln. Die Curbs in Eau Rouge vorsichtig nutzen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "In den S-Kurven ruhig lenken und beim Herausbeschleunigen das Gas langsam öffnen."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Für maximale Topspeed die Schikanen sauber anfahren und die Curbs kontrolliert nutzen."
+      }
+    ]
+  }
+]

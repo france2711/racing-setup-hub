@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GT7 Version 4.0 | Racing Setup Hub</title>
+  <title>GT7 Version 4.7 | Racing Setup Hub</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .v4-page{width:min(1240px,94vw);margin:auto;padding:24px 0 70px}
@@ -47,7 +47,7 @@
     </div>
 
     <section class="v4-hero">
-      <span class="version-badge">GT7 · VERSION 4.0</span>
+      <span class="version-badge">GT7 · VERSION 4.7</span>
       <h1>Deine GT7-Garage</h1>
       <p>Klassen, Hersteller, Fahrzeuge, Strecken, Favoriten und eigene Notizen in einer Datenbank.</p>
       <div class="v4-stats">
@@ -58,13 +58,40 @@
       </div>
     </section>
 
-    <section class="controls">
-      <input id="searchInput" type="search" placeholder="Auto, Hersteller oder Strecke suchen …">
-      <select id="viewFilter">
-        <option value="all">Alle Fahrzeuge</option>
-        <option value="favorites">Nur Lieblingsautos</option>
-      </select>
-    </section>
+    <section class="controls controls-advanced">
+  <input
+    id="searchInput"
+    type="search"
+    placeholder="Auto, Hersteller oder Strecke suchen …"
+  >
+
+  <select id="viewFilter">
+    <option value="all">Alle Fahrzeuge</option>
+    <option value="favorites">Nur Lieblingsautos</option>
+  </select>
+
+  <select id="manufacturerFilter">
+    <option value="all">Alle Hersteller</option>
+  </select>
+
+  <select id="trackFilter">
+    <option value="all">Alle Strecken</option>
+  </select>
+
+  <select id="drivetrainFilter">
+    <option value="all">Alle Antriebe</option>
+    <option value="MR">MR</option>
+    <option value="FR">FR</option>
+    <option value="4WD">4WD</option>
+  </select>
+
+  <select id="sortFilter">
+    <option value="name">Nach Name</option>
+    <option value="manufacturer">Nach Hersteller</option>
+    <option value="grip">Nach Grip</option>
+    <option value="controller">Nach Controller</option>
+  </select>
+</section>
 
     <section id="classTabs" class="class-tabs"></section>
 
@@ -83,17 +110,103 @@
         <div id="detailsEmpty" class="empty">Wähle ein Fahrzeug aus.</div>
         <div id="details" hidden>
           <div class="car-title-row">
+            <img id="manufacturerLogo"
+     class="manufacturer-logo"
+     src="../assets/images/logos/placeholder.webp"
+     alt="Herstellerlogo">
             <div>
               <span id="carClass" class="version-badge"></span>
               <h2 id="carName"></h2>
               <p id="carManufacturer"></p>
             </div>
             <button id="favoriteCar" class="fav-car" title="Lieblingsauto">☆</button>
-          </div>
+          </div><div class="car-image-box">
+            <div class="car-info-grid">
+  <div class="car-info-item">
+    <span>Antrieb</span>
+    <strong id="carDrivetrain">–</strong>
+  </div>
+
+  <div class="car-info-item">
+    <span>Leistung</span>
+    <strong id="carPower">–</strong>
+  </div>
+
+  <div class="car-info-item">
+    <span>Gewicht</span>
+    <strong id="carWeight">–</strong>
+  </div>
+
+  <div class="car-info-item">
+    <span>Baujahr</span>
+    <strong id="carYear">–</strong>
+  </div>
+</div>
+
+<div class="rating-box">
+  <div class="rating-row">
+    <span>Grip</span>
+    <strong id="ratingGrip">☆☆☆☆☆</strong>
+  </div>
+
+  <div class="rating-row">
+    <span>Stabilität</span>
+    <strong id="ratingStability">☆☆☆☆☆</strong>
+  </div>
+
+  <div class="rating-row">
+    <span>Controller</span>
+    <strong id="ratingController">☆☆☆☆☆</strong>
+  </div>
+
+  <div class="rating-row">
+    <span>Reifenverschleiß</span>
+    <strong id="ratingTireWear">☆☆☆☆☆</strong>
+  </div>
+</div>
+    <img id="carImage"
+         src="../assets/images/cars/placeholder.webp"
+         alt="Fahrzeugbild">
+</div>
 
           <h3>Strecken</h3>
           <div id="trackTabs" class="track-tabs"></div>
-          <div id="setupDetails" class="setup-card"></div>
+          <section class="setup-center">
+  <div class="setup-center-header">
+    <div>
+      <p class="eyebrow">AKTUELLES SETUP</p>
+      <h3 id="selectedTrackName">Strecke</h3>
+    </div>
+
+    <span class="setup-status">
+      Controller
+    </span>
+  </div>
+
+  <div id="setupDetails" class="setup-card"></div>
+
+  <div class="setup-ratings">
+    <div class="setup-rating-row">
+      <span>Stabilität</span>
+      <strong id="setupStability">☆☆☆☆☆</strong>
+    </div>
+
+    <div class="setup-rating-row">
+      <span>Einlenken</span>
+      <strong id="setupTurnIn">☆☆☆☆☆</strong>
+    </div>
+
+    <div class="setup-rating-row">
+      <span>Traktion</span>
+      <strong id="setupTraction">☆☆☆☆☆</strong>
+    </div>
+
+    <div class="setup-rating-row">
+      <span>Reifenverschleiß</span>
+      <strong id="setupTireWear">☆☆☆☆☆</strong>
+    </div>
+  </div>
+</section>
 
           <textarea id="setupNote" class="setup-note" placeholder="Eigene Notiz für dieses Setup …"></textarea>
           <button id="saveNote" class="save-note">Notiz speichern</button>
@@ -102,6 +215,13 @@
       </section>
     </section>
   </main>
-  <script src="../js/gt7.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/database.js"></script>
+<script src="../js/search.js"></script>
+<script src="../js/favorites.js"></script>
+<script src="../js/garage.js"></script>
+<script src="../js/imageLoader.js"></script>
+<script src="../js/logoLoader.js"></script>
+<script src="../js/gt7.js"></script>
 </body>
 </html>

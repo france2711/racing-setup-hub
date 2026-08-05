@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lamborghini-huracan-gt3-15",
+    "class": "Gr.3",
+    "manufacturer": "Lamborghini",
+    "name": "Lamborghini Huracán GT3 '15",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Schnell, aber beim Lastwechsel vorsichtig."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Flüssig lenken und das Heck nicht überfordern."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Sehr gute Traktion aus den Schikanen."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Bremse am Kurveneingang langsam lösen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": 0,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Curbs sparsam nutzen und das Auto setzen lassen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Stark in schnellen Kurven, bei Gaswegnahme ruhig bleiben."
+      }
+    ]
+  }
+]

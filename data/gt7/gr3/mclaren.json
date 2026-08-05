@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mclaren-650s-gt3-15",
+    "class": "Gr.3",
+    "manufacturer": "McLaren",
+    "name": "McLaren 650S GT3 '15",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "In schnellen Kurven nicht abrupt vom Gas gehen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Flüssig durch die S-Kurven fahren."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Die Schikanen sauber anfahren."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Etwas früher bremsen und sauber rotieren lassen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Schnelle Richtungswechsel ruhig fahren."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Bei Lastwechseln sanft bleiben."
+      }
+    ]
+  }
+]

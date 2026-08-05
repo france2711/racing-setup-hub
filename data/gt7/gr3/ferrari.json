@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ferrari-296-gt3",
+    "class": "Gr.3",
+    "manufacturer": "Ferrari",
+    "name": "Ferrari 296 GT3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr ausgewogen. Stark in schnellen Kurven."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sauber durch die S-Kurven rollen."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -3,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Aggressiv über die Schikanen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stabil im Mittelsektor."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Spät ans Gas aus der letzten Kurve."
+      }
+    ]
+  },
+  {
+    "id": "ferrari-458-gt3",
+    "class": "Gr.3",
+    "manufacturer": "Ferrari",
+    "name": "Ferrari 458 Italia GT3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr agil, aber Curbs vorsichtig nutzen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Flüssig durch die S-Kurven fahren."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Hohe Traktion aus den Schikanen."
+      }
+    ]
+  }
+]

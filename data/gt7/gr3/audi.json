@@ -1,0 +1,71 @@
+
+ [
+  {
+    "id": "audi-r8-lms-evo19",
+    "class": "Gr.3",
+    "manufacturer": "Audi",
+    "name": "Audi R8 LMS Evo '19",
+    "drivetrain": "MR",
+    "power": 585,
+    "weight": 1285,
+    "year": 2019,
+    "ratings": {
+      "grip": 5,
+      "stability": 5,
+      "controller": 5,
+      "tireWear": 4
+    },
+    "setups": [
+    {
+  "track": "Spa",
+  "brakeBalance": -2,
+  "tcs": 2,
+  "tires": "Racing Medium",
+  "abs": "Standard",
+  "asm": "Aus",
+  "ratings": {
+    "stability": 5,
+    "turnIn": 4,
+    "traction": 5,
+    "tireWear": 4
+  },
+  "tip": "Sehr stabil für Controller."
+},
+{
+  "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Ruhig durch die S-Kurven lenken."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Spät bremsen und die Schikanen sauber treffen."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr ausgewogenes Setup."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Nicht zu aggressiv über die Curbs fahren."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Stark im Mittelsektor."
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "toyota-gr-supra-racing-concept-18",
+    "class": "Gr.3",
+    "manufacturer": "Toyota",
+    "name": "Toyota GR Supra Racing Concept '18",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr ausgewogen und gut kontrollierbar."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sauber durch die S-Kurven rollen und spät beschleunigen."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Die Schikanen möglichst gerade anbremsen."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Stabile Rennbasis mit guter Traktion."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Curbs nur vorsichtig nutzen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "In schnellen Kurven ruhig bleiben und den Schwung mitnehmen."
+      }
+    ]
+  }
+]

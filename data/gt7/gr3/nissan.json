@@ -1,0 +1,52 @@
+[
+  {
+    "id": "nissan-gt-r-nismo-gt3-18",
+    "class": "Gr.3",
+    "manufacturer": "Nissan",
+    "name": "Nissan GT-R NISMO GT3 '18",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stabil beim Bremsen. Am Kurvenausgang sanft ans Gas gehen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Die S-Kurven mit ruhigen Lenkeingaben fahren."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Früh und gerade bremsen, dann die starke Traktion nutzen."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Gute Basis für Controller und längere Rennen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Das hohe Gewicht beim Einlenken berücksichtigen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Stark auf den schnellen Abschnitten. Nicht abrupt vom Gas gehen."
+      }
+    ]
+  }
+]

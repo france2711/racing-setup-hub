@@ -1,0 +1,52 @@
+[
+  {
+    "id": "honda-nsx-gr3",
+    "class": "Gr.3",
+    "manufacturer": "Honda",
+    "name": "Honda NSX Gr.3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Agiles Heck. Beim Herausbeschleunigen fein dosieren."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stark in den S-Kurven, aber keine abrupten Lastwechsel."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Spät bremsen, aber das Heck beim Einlenken ruhig halten."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Gute Rotation in langsamen Kurven."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": 0,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sanft über Kuppen und Curbs fahren."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "In schnellen Passagen kleine Lenkkorrekturen verwenden."
+      }
+    ]
+  }
+]

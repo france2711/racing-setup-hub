@@ -1,0 +1,31 @@
+[
+  {
+    "id": "porsche-911-gt3-r-992",
+    "class": "Gr.3",
+    "manufacturer": "Porsche",
+    "name": "Porsche 911 GT3 R (992)",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stabil im schnellen Kurvenbereich."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": 0,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sanft am Gas in den S-Kurven."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Spät bremsen und Traktion aus den Schikanen nutzen."
+      }
+    ]
+  }
+]

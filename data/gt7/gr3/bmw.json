@@ -1,0 +1,67 @@
+[
+  {
+    "id": "bmw-m4-gt3",
+    "class": "Gr.3",
+    "manufacturer": "BMW",
+    "name": "BMW M4 GT3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr ruhig beim Bremsen."
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Konstant durch die S-Kurven."
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": -2,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "tip": "Sehr gute Traktion."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Ausgewogenes Rennsetup."
+      }
+    ]
+  },
+  {
+    "id": "bmw-m6-gt3",
+    "class": "Gr.3",
+    "manufacturer": "BMW",
+    "name": "BMW M6 GT3",
+    "setups": [
+      {
+        "track": "Spa",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Sehr stabil bei hohen Geschwindigkeiten."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Nicht zu aggressiv über die Curbs."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -2,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "tip": "Später Bremspunkt möglich."
+      }
+    ]
+  }
+]
