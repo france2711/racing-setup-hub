@@ -410,99 +410,107 @@ footer{padding:24px;text-align:center;color:var(--muted);border-top:1px solid va
 .setup-rating-row strong {
   color: #ffd45c;
   letter-spacing: 2px;
-}.setup-editor-toggle {
-  width: 100%;
-  margin-top: 18px;
-  padding: 12px;
-  color: var(--text);
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 11px;
-  font-weight: 850;
 }
 
+/* Version 4.7.5 – Streckensuche und Setup-Editor */
+.track-selection-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  margin-top:22px;
+}
+.track-selection-header h3 { margin:0; }
+.track-search-box { margin-top:12px; }
+.track-search-box input {
+  width:100%;
+  padding:13px 15px;
+  color:var(--text);
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:12px;
+  outline:none;
+}
+.track-search-box input:focus { border-color:var(--orange); }
+.clear-track-search {
+  padding:9px 12px;
+  color:var(--text);
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:10px;
+}
+.track-result-count {
+  min-height:20px;
+  margin:9px 0;
+  color:var(--muted);
+  font-size:.85rem;
+}
+.track-tabs-searchable {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:9px;
+  max-height:330px;
+  overflow-y:auto;
+  padding-right:5px;
+}
+.track-tabs-searchable .track-tab {
+  width:100%;
+  min-height:48px;
+  text-align:center;
+}
+.track-no-results {
+  grid-column:1/-1;
+  padding:20px;
+  color:var(--muted);
+  text-align:center;
+  background:var(--bg);
+  border:1px dashed var(--line);
+  border-radius:12px;
+}
+.setup-editor-toggle {
+  width:100%;
+  margin-top:18px;
+  padding:12px;
+  color:var(--text);
+  background:var(--surface-2);
+  border:1px solid var(--line);
+  border-radius:11px;
+  font-weight:850;
+}
 .setup-editor {
-  margin-top: 12px;
-  padding: 16px;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 14px;
+  margin-top:12px;
+  padding:16px;
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:14px;
 }
-
-.setup-editor[hidden] {
-  display: none;
-}
-
+.setup-editor[hidden] { display:none; }
 .editor-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
 }
-
 .editor-grid label {
-  display: grid;
-  gap: 6px;
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 800;
+  display:grid;
+  gap:6px;
+  color:var(--muted);
+  font-size:.85rem;
+  font-weight:800;
 }
-
 .editor-grid input,
 .editor-grid textarea {
-  width: 100%;
-  padding: 11px;
-  color: var(--text);
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 10px;
+  width:100%;
+  padding:11px;
+  color:var(--text);
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:10px;
 }
-
-.editor-grid textarea {
-  min-height: 90px;
-  resize: vertical;
-}
-
-.editor-full {
-  grid-column: 1 / -1;
-}
-
-.editor-actions {
-  display: flex;
-  gap: 10px;
-  margin-top: 14px;
-}
-
-.editor-save,
-.editor-reset {
-  flex: 1;
-  padding: 11px;
-  border-radius: 10px;
-  font-weight: 850;
-}
-
-.editor-save {
-  color: white;
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange)
-  );
-  border: 0;
-}
-
-.editor-reset {
-  color: var(--text);
-  background: var(--surface);
-  border: 1px solid var(--line);
-}
-
-#setupEditorStatus {
-  min-height: 18px;
-  color: #79d99a;
-}
-
-@media (max-width: 700px) {
-  .editor-grid {
-    grid-template-columns: 1fr;
-  }
-}
+.editor-grid textarea { min-height:90px; resize:vertical; }
+.editor-full { grid-column:1/-1; }
+.editor-actions { display:flex; gap:10px; margin-top:14px; }
+.editor-save,.editor-reset { flex:1; padding:11px; border-radius:10px; font-weight:850; }
+.editor-save { color:#fff; background:linear-gradient(90deg,var(--red),var(--orange)); border:0; }
+.editor-reset { color:var(--text); background:var(--surface); border:1px solid var(--line); }
+#setupEditorStatus { min-height:18px; color:#79d99a; }
+@media(max-width:700px) { .editor-grid { grid-template-columns:1fr; } }

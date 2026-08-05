@@ -1,0 +1,486 @@
+[
+  {
+    "id": 1,
+    "name": "24 Heures du Mans"
+  },
+  {
+    "id": 2,
+    "name": "24 Heures du Mans – Ohne Schikanen"
+  },
+  {
+    "id": 3,
+    "name": "Alsace – Village"
+  },
+  {
+    "id": 4,
+    "name": "Alsace – Village Rückwärts"
+  },
+  {
+    "id": 5,
+    "name": "Alsace – Test Course"
+  },
+  {
+    "id": 6,
+    "name": "Alsace – Test Course Rückwärts"
+  },
+  {
+    "id": 7,
+    "name": "Autodrome Lago Maggiore – Gesamtstrecke"
+  },
+  {
+    "id": 8,
+    "name": "Autodrome Lago Maggiore – Gesamtstrecke Rückwärts"
+  },
+  {
+    "id": 9,
+    "name": "Autodrome Lago Maggiore – Centre"
+  },
+  {
+    "id": 10,
+    "name": "Autodrome Lago Maggiore – Centre Rückwärts"
+  },
+  {
+    "id": 11,
+    "name": "Autodrome Lago Maggiore – East"
+  },
+  {
+    "id": 12,
+    "name": "Autodrome Lago Maggiore – East Rückwärts"
+  },
+  {
+    "id": 13,
+    "name": "Autodrome Lago Maggiore – East End"
+  },
+  {
+    "id": 14,
+    "name": "Autodrome Lago Maggiore – East End Rückwärts"
+  },
+  {
+    "id": 15,
+    "name": "Autodrome Lago Maggiore – West"
+  },
+  {
+    "id": 16,
+    "name": "Autodrome Lago Maggiore – West Rückwärts"
+  },
+  {
+    "id": 17,
+    "name": "Autodrome Lago Maggiore – West End"
+  },
+  {
+    "id": 18,
+    "name": "Autodrome Lago Maggiore – West End Rückwärts"
+  },
+  {
+    "id": 19,
+    "name": "Autódromo de Interlagos"
+  },
+  {
+    "id": 20,
+    "name": "Monza"
+  },
+  {
+    "id": 21,
+    "name": "Monza – Ohne Schikane"
+  },
+  {
+    "id": 22,
+    "name": "Autopolis"
+  },
+  {
+    "id": 23,
+    "name": "Autopolis – Kurzstrecke"
+  },
+  {
+    "id": 24,
+    "name": "Barcelona-Catalunya GP"
+  },
+  {
+    "id": 25,
+    "name": "Barcelona-Catalunya GP – Ohne Schikane"
+  },
+  {
+    "id": 26,
+    "name": "Barcelona-Catalunya – National"
+  },
+  {
+    "id": 27,
+    "name": "Barcelona-Catalunya – Rallycross"
+  },
+  {
+    "id": 28,
+    "name": "Blue Moon Bay Speedway"
+  },
+  {
+    "id": 29,
+    "name": "Blue Moon Bay Speedway Rückwärts"
+  },
+  {
+    "id": 30,
+    "name": "Blue Moon Bay – Infield A"
+  },
+  {
+    "id": 31,
+    "name": "Blue Moon Bay – Infield A Rückwärts"
+  },
+  {
+    "id": 32,
+    "name": "Blue Moon Bay – Infield B"
+  },
+  {
+    "id": 33,
+    "name": "Blue Moon Bay – Infield B Rückwärts"
+  },
+  {
+    "id": 34,
+    "name": "Brands Hatch"
+  },
+  {
+    "id": 35,
+    "name": "Brands Hatch – Indy"
+  },
+  {
+    "id": 36,
+    "name": "Broad Bean Raceway"
+  },
+  {
+    "id": 37,
+    "name": "Broad Bean Raceway Rückwärts"
+  },
+  {
+    "id": 38,
+    "name": "Circuit de Sainte-Croix A"
+  },
+  {
+    "id": 39,
+    "name": "Circuit de Sainte-Croix A Rückwärts"
+  },
+  {
+    "id": 40,
+    "name": "Circuit de Sainte-Croix B"
+  },
+  {
+    "id": 41,
+    "name": "Circuit de Sainte-Croix B Rückwärts"
+  },
+  {
+    "id": 42,
+    "name": "Circuit de Sainte-Croix C"
+  },
+  {
+    "id": 43,
+    "name": "Circuit de Sainte-Croix C Rückwärts"
+  },
+  {
+    "id": 44,
+    "name": "Colorado Springs – Lake"
+  },
+  {
+    "id": 45,
+    "name": "Colorado Springs – Lake Rückwärts"
+  },
+  {
+    "id": 46,
+    "name": "Daytona – Tri-Oval"
+  },
+  {
+    "id": 47,
+    "name": "Daytona – Road Course"
+  },
+  {
+    "id": 48,
+    "name": "Deep Forest Raceway"
+  },
+  {
+    "id": 49,
+    "name": "Deep Forest Raceway Rückwärts"
+  },
+  {
+    "id": 50,
+    "name": "Dragon Trail – Seaside"
+  },
+  {
+    "id": 51,
+    "name": "Dragon Trail – Seaside Rückwärts"
+  },
+  {
+    "id": 52,
+    "name": "Dragon Trail – Gardens"
+  },
+  {
+    "id": 53,
+    "name": "Dragon Trail – Gardens Rückwärts"
+  },
+  {
+    "id": 54,
+    "name": "Eiger Nordwand"
+  },
+  {
+    "id": 55,
+    "name": "Eiger Nordwand Rückwärts"
+  },
+  {
+    "id": 56,
+    "name": "Fishermans Ranch"
+  },
+  {
+    "id": 57,
+    "name": "Fishermans Ranch Rückwärts"
+  },
+  {
+    "id": 58,
+    "name": "Fuji Speedway"
+  },
+  {
+    "id": 59,
+    "name": "Fuji Speedway – Kurz"
+  },
+  {
+    "id": 60,
+    "name": "Goodwood Motor Circuit"
+  },
+  {
+    "id": 61,
+    "name": "Grand Valley – Highway 1"
+  },
+  {
+    "id": 62,
+    "name": "Grand Valley – Highway 1 Rückwärts"
+  },
+  {
+    "id": 63,
+    "name": "Grand Valley – South"
+  },
+  {
+    "id": 64,
+    "name": "Grand Valley – South Rückwärts"
+  },
+  {
+    "id": 65,
+    "name": "High Speed Ring"
+  },
+  {
+    "id": 66,
+    "name": "High Speed Ring Rückwärts"
+  },
+  {
+    "id": 67,
+    "name": "Kyoto Driving Park – Miyabi"
+  },
+  {
+    "id": 68,
+    "name": "Kyoto Driving Park – Yamagiwa"
+  },
+  {
+    "id": 69,
+    "name": "Kyoto Driving Park – Yamagiwa Rückwärts"
+  },
+  {
+    "id": 70,
+    "name": "Kyoto Driving Park – Yamagiwa + Miyabi"
+  },
+  {
+    "id": 71,
+    "name": "Kyoto Driving Park – Yamagiwa + Miyabi Rückwärts"
+  },
+  {
+    "id": 72,
+    "name": "WeatherTech Raceway Laguna Seca"
+  },
+  {
+    "id": 73,
+    "name": "Lake Louise – Long Track"
+  },
+  {
+    "id": 74,
+    "name": "Lake Louise – Long Track Rückwärts"
+  },
+  {
+    "id": 75,
+    "name": "Lake Louise – Short Track"
+  },
+  {
+    "id": 76,
+    "name": "Lake Louise – Short Track Rückwärts"
+  },
+  {
+    "id": 77,
+    "name": "Lake Louise – Tri-Oval"
+  },
+  {
+    "id": 78,
+    "name": "Lake Louise – Tri-Oval Rückwärts"
+  },
+  {
+    "id": 79,
+    "name": "Mount Panorama Motor Racing Circuit"
+  },
+  {
+    "id": 80,
+    "name": "Northern Isle Speedway"
+  },
+  {
+    "id": 81,
+    "name": "Nürburgring GP"
+  },
+  {
+    "id": 82,
+    "name": "Nürburgring Sprint"
+  },
+  {
+    "id": 83,
+    "name": "Nürburgring 24h"
+  },
+  {
+    "id": 84,
+    "name": "Nürburgring Endurance"
+  },
+  {
+    "id": 85,
+    "name": "Nürburgring Endurance II"
+  },
+  {
+    "id": 86,
+    "name": "Nürburgring Nordschleife"
+  },
+  {
+    "id": 87,
+    "name": "Nürburgring Nordschleife – Touristenfahrten"
+  },
+  {
+    "id": 88,
+    "name": "Red Bull Ring"
+  },
+  {
+    "id": 89,
+    "name": "Red Bull Ring – Kurz"
+  },
+  {
+    "id": 90,
+    "name": "Michelin Raceway Road Atlanta"
+  },
+  {
+    "id": 91,
+    "name": "Sardegna – Road Track A"
+  },
+  {
+    "id": 92,
+    "name": "Sardegna – Road Track A Rückwärts"
+  },
+  {
+    "id": 93,
+    "name": "Sardegna – Road Track B"
+  },
+  {
+    "id": 94,
+    "name": "Sardegna – Road Track B Rückwärts"
+  },
+  {
+    "id": 95,
+    "name": "Sardegna – Road Track C"
+  },
+  {
+    "id": 96,
+    "name": "Sardegna – Road Track C Rückwärts"
+  },
+  {
+    "id": 97,
+    "name": "Sardegna – Windmills"
+  },
+  {
+    "id": 98,
+    "name": "Sardegna – Windmills Rückwärts"
+  },
+  {
+    "id": 99,
+    "name": "Spa"
+  },
+  {
+    "id": 100,
+    "name": "Spa – 24h Layout"
+  },
+  {
+    "id": 101,
+    "name": "Special Stage Route X"
+  },
+  {
+    "id": 102,
+    "name": "Suzuka"
+  },
+  {
+    "id": 103,
+    "name": "Suzuka – East Course"
+  },
+  {
+    "id": 104,
+    "name": "Tokyo Expressway – Central Clockwise"
+  },
+  {
+    "id": 105,
+    "name": "Tokyo Expressway – Central Counterclockwise"
+  },
+  {
+    "id": 106,
+    "name": "Tokyo Expressway – East Clockwise"
+  },
+  {
+    "id": 107,
+    "name": "Tokyo Expressway – East Counterclockwise"
+  },
+  {
+    "id": 108,
+    "name": "Tokyo Expressway – South Clockwise"
+  },
+  {
+    "id": 109,
+    "name": "Tokyo Expressway – South Counterclockwise"
+  },
+  {
+    "id": 110,
+    "name": "Trial Mountain Circuit"
+  },
+  {
+    "id": 111,
+    "name": "Trial Mountain Circuit Rückwärts"
+  },
+  {
+    "id": 112,
+    "name": "Tsukuba Circuit"
+  },
+  {
+    "id": 113,
+    "name": "Watkins Glen"
+  },
+  {
+    "id": 114,
+    "name": "Watkins Glen – Short Course"
+  },
+  {
+    "id": 115,
+    "name": "Willow Springs – Big Willow"
+  },
+  {
+    "id": 116,
+    "name": "Willow Springs – Horse Thief Mile"
+  },
+  {
+    "id": 117,
+    "name": "Willow Springs – Horse Thief Mile Rückwärts"
+  },
+  {
+    "id": 118,
+    "name": "Willow Springs – Streets of Willow Springs"
+  },
+  {
+    "id": 119,
+    "name": "Willow Springs – Streets of Willow Springs Rückwärts"
+  },
+  {
+    "id": 120,
+    "name": "Circuit Gilles-Villeneuve"
+  },
+  {
+    "id": 121,
+    "name": "Yas Marina Circuit"
+  }
+]

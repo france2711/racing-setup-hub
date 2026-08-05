@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GT7 Version 4.7 | Racing Setup Hub</title>
+  <title>GT7 Version 4.7.5 | Racing Setup Hub</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .v4-page{width:min(1240px,94vw);margin:auto;padding:24px 0 70px}
@@ -47,7 +47,7 @@
     </div>
 
     <section class="v4-hero">
-      <span class="version-badge">GT7 · VERSION 4.7</span>
+      <span class="version-badge">GT7 · VERSION 4.7.5</span>
       <h1>Deine GT7-Garage</h1>
       <p>Klassen, Hersteller, Fahrzeuge, Strecken, Favoriten und eigene Notizen in einer Datenbank.</p>
       <div class="v4-stats">
@@ -169,8 +169,17 @@
          alt="Fahrzeugbild">
 </div>
 
-          <h3>Strecken</h3>
-          <div id="trackTabs" class="track-tabs"></div>
+          <div class="track-selection-header">
+            <h3>Strecke auswählen</h3>
+            <button id="clearTrackSearch" class="clear-track-search" type="button">Suche löschen</button>
+          </div>
+
+          <div class="track-search-box">
+            <input id="trackSearchInput" type="search" placeholder="Strecke suchen, z. B. Spa, Monza oder Tokyo …" autocomplete="off">
+          </div>
+
+          <p id="trackResultCount" class="track-result-count"></p>
+          <div id="trackTabs" class="track-tabs track-tabs-searchable"></div>
           <section class="setup-center">
   <div class="setup-center-header">
     <div>
@@ -207,94 +216,26 @@
     </div>
   </div>
 </section>
-<button
-  id="toggleSetupEditor"
-  class="setup-editor-toggle"
-  type="button"
->
-  ✏️ Setup bearbeiten
-</button>
 
-<section id="setupEditor" class="setup-editor" hidden>
+          <button id="toggleSetupEditor" class="setup-editor-toggle" type="button">✏️ Setup bearbeiten</button>
 
-  <h3>Persönliches Setup bearbeiten</h3>
+          <section id="setupEditor" class="setup-editor" hidden>
+            <h3>Persönliches Setup bearbeiten</h3>
+            <div class="editor-grid">
+              <label>Bremsbalance<input id="editBrakeBalance" type="number" min="-5" max="5"></label>
+              <label>TKS<input id="editTcs" type="number" min="0" max="5"></label>
+              <label>Reifen<input id="editTires" type="text"></label>
+              <label>ABS<input id="editAbs" type="text"></label>
+              <label>ASM<input id="editAsm" type="text"></label>
+              <label class="editor-full">Persönlicher Tipp<textarea id="editTip"></textarea></label>
+            </div>
+            <div class="editor-actions">
+              <button id="saveSetupEdit" class="editor-save" type="button">Änderungen speichern</button>
+              <button id="resetSetupEdit" class="editor-reset" type="button">Original wiederherstellen</button>
+            </div>
+            <p id="setupEditorStatus"></p>
+          </section>
 
-  <div class="editor-grid">
-
-    <label>
-      Bremsbalance
-      <input
-        id="editBrakeBalance"
-        type="number"
-        min="-5"
-        max="5"
-      >
-    </label>
-
-    <label>
-      TKS
-      <input
-        id="editTcs"
-        type="number"
-        min="0"
-        max="5"
-      >
-    </label>
-
-    <label>
-      Reifen
-      <input
-        id="editTires"
-        type="text"
-      >
-    </label>
-
-    <label>
-      ABS
-      <input
-        id="editAbs"
-        type="text"
-      >
-    </label>
-
-    <label>
-      ASM
-      <input
-        id="editAsm"
-        type="text"
-      >
-    </label>
-
-    <label class="editor-full">
-      Persönlicher Tipp
-      <textarea id="editTip"></textarea>
-    </label>
-
-  </div>
-
-  <div class="editor-actions">
-
-    <button
-      id="saveSetupEdit"
-      class="editor-save"
-      type="button"
-    >
-      Änderungen speichern
-    </button>
-
-    <button
-      id="resetSetupEdit"
-      class="editor-reset"
-      type="button"
-    >
-      Original wiederherstellen
-    </button>
-
-  </div>
-
-  <p id="setupEditorStatus"></p>
-
-</section>
           <textarea id="setupNote" class="setup-note" placeholder="Eigene Notiz für dieses Setup …"></textarea>
           <button id="saveNote" class="save-note">Notiz speichern</button>
           <p id="noteStatus"></p>

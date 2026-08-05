@@ -2,10 +2,17 @@ class Database {
 
     constructor() {
         this.data = {
-            gt7: []
+            gt7: [],
+            tracks:[]
         };
     }
+async loadTracks() {
+  this.data.tracks = await this.loadJSON(
+    CONFIG.tracksFile
+  );
 
+  return this.data.tracks;
+}
     async loadJSON(path) {
 
         try {

@@ -1,0 +1,306 @@
+[
+  {
+    "manufacturer": "AFEELA",
+    "cars": 2
+  },
+  {
+    "manufacturer": "AMG",
+    "cars": 14
+  },
+  {
+    "manufacturer": "Abarth",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Alfa Romeo",
+    "cars": 11
+  },
+  {
+    "manufacturer": "Alpine",
+    "cars": 6
+  },
+  {
+    "manufacturer": "Amuse",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Aston Martin",
+    "cars": 12
+  },
+  {
+    "manufacturer": "Audi",
+    "cars": 14
+  },
+  {
+    "manufacturer": "Autobianchi",
+    "cars": 1
+  },
+  {
+    "manufacturer": "BAC",
+    "cars": 1
+  },
+  {
+    "manufacturer": "BMW",
+    "cars": 20
+  },
+  {
+    "manufacturer": "BVLGARI",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Bugatti",
+    "cars": 5
+  },
+  {
+    "manufacturer": "Chaparral",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Chevrolet",
+    "cars": 21
+  },
+  {
+    "manufacturer": "Chris Holstrom Concepts",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Citroen",
+    "cars": 5
+  },
+  {
+    "manufacturer": "DMC",
+    "cars": 1
+  },
+  {
+    "manufacturer": "DS AUTOMOBILES",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Daihatsu",
+    "cars": 2
+  },
+  {
+    "manufacturer": "De Tomaso",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Dodge",
+    "cars": 15
+  },
+  {
+    "manufacturer": "Eckert's Rod & Custom",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Ferrari",
+    "cars": 26
+  },
+  {
+    "manufacturer": "Fiat",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Ford",
+    "cars": 23
+  },
+  {
+    "manufacturer": "Garage RCR",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Genesis",
+    "cars": 5
+  },
+  {
+    "manufacturer": "Gran Turismo",
+    "cars": 8
+  },
+  {
+    "manufacturer": "Greddy",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Greening Auto Company",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Honda",
+    "cars": 29
+  },
+  {
+    "manufacturer": "Hyundai",
+    "cars": 9
+  },
+  {
+    "manufacturer": "Infiniti",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Italdesign",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Jaguar",
+    "cars": 11
+  },
+  {
+    "manufacturer": "Jeep",
+    "cars": 1
+  },
+  {
+    "manufacturer": "KTM",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Lamborghini",
+    "cars": 14
+  },
+  {
+    "manufacturer": "Lancia",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Lexus",
+    "cars": 9
+  },
+  {
+    "manufacturer": "MINI",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Maserati",
+    "cars": 4
+  },
+  {
+    "manufacturer": "Mazda",
+    "cars": 24
+  },
+  {
+    "manufacturer": "McLaren",
+    "cars": 10
+  },
+  {
+    "manufacturer": "Mercedes-Benz",
+    "cars": 9
+  },
+  {
+    "manufacturer": "Mine's",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Mitsubishi",
+    "cars": 14
+  },
+  {
+    "manufacturer": "NISMO",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Nissan",
+    "cars": 38
+  },
+  {
+    "manufacturer": "Opel",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Pagani",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Peugeot",
+    "cars": 14
+  },
+  {
+    "manufacturer": "Plymouth",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Polestar",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Pontiac",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Porsche",
+    "cars": 32
+  },
+  {
+    "manufacturer": "RE Amemiya",
+    "cars": 1
+  },
+  {
+    "manufacturer": "RUF",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Radical",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Renault",
+    "cars": 17
+  },
+  {
+    "manufacturer": "Roadster Shop",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Shelby",
+    "cars": 3
+  },
+  {
+    "manufacturer": "Skoda",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Subaru",
+    "cars": 16
+  },
+  {
+    "manufacturer": "Super Formula (Dallara)",
+    "cars": 4
+  },
+  {
+    "manufacturer": "Suzuki",
+    "cars": 10
+  },
+  {
+    "manufacturer": "TVR",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Tesla",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Toyota",
+    "cars": 46
+  },
+  {
+    "manufacturer": "Volkswagen",
+    "cars": 13
+  },
+  {
+    "manufacturer": "Volvo",
+    "cars": 2
+  },
+  {
+    "manufacturer": "Wicked Fabrication",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Xiaomi",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Yangwang",
+    "cars": 1
+  },
+  {
+    "manufacturer": "Zagato",
+    "cars": 1
+  }
+]

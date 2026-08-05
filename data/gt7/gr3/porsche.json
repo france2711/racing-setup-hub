@@ -1,15 +1,90 @@
 [
   {
-    "id": "porsche-911-gt3-r-992",
+    "id": "porsche-356-a-1500-gs-carrera-56",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "356 A/1500 GS Carrera '56",
+    "year": 1956,
+    "setups": []
+  },
+  {
+    "id": "porsche-356-a-1500-gs-gt-carrera-speedster-56",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "356 A/1500 GS GT Carrera Speedster '56",
+    "year": 1956,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-carrera-rs-901-73",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Carrera RS (901) '73",
+    "year": 1973,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-carrera-rs-964-92",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Carrera RS (964) '92",
+    "year": 1992,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-carrera-rs-993-95",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Carrera RS (993) '95",
+    "year": 1995,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-carrera-rs-clubsport-993-95",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Carrera RS Clubsport (993) '95",
+    "year": 1995,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-gt1-strassenversion-97",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 GT1 Strassenversion '97",
+    "year": 1997,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-gt3-996-01",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 GT3 (996) '01",
+    "year": 2001,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-gt3-997-09",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 GT3 (997) '09",
+    "year": 2009,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-gt3-r-992-22",
     "class": "Gr.3",
     "manufacturer": "Porsche",
-    "name": "Porsche 911 GT3 R (992)",
+    "name": "911 GT3 R (992) '22",
+    "year": 2022,
     "setups": [
       {
         "track": "Spa",
         "brakeBalance": -1,
         "tcs": 2,
         "tires": "Racing Medium",
+        "abs": "Standard",
+        "asm": "Aus",
         "tip": "Sehr stabil im schnellen Kurvenbereich."
       },
       {
@@ -17,6 +92,8 @@
         "brakeBalance": 0,
         "tcs": 2,
         "tires": "Racing Medium",
+        "abs": "Standard",
+        "asm": "Aus",
         "tip": "Sanft am Gas in den S-Kurven."
       },
       {
@@ -24,8 +101,221 @@
         "brakeBalance": -2,
         "tcs": 1,
         "tires": "Racing Medium",
-        "tip": "Spät bremsen und Traktion aus den Schikanen nutzen."
+        "abs": "Standard",
+        "asm": "Aus",
+        "tip": "Spät bremsen und die Traktion aus den Schikanen nutzen."
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "abs": "Standard",
+        "asm": "Aus",
+        "tip": "Vor schnellen Kurven früh vom Gas gehen."
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": -1,
+        "tcs": 1,
+        "tires": "Racing Medium",
+        "abs": "Standard",
+        "asm": "Aus",
+        "tip": "Mit kleinen und ruhigen Lenkbewegungen arbeiten."
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": -1,
+        "tcs": 2,
+        "tires": "Racing Medium",
+        "abs": "Standard",
+        "asm": "Aus",
+        "tip": "Die Bremse am Kurveneingang langsam lösen."
       }
     ]
+  },
+  {
+    "id": "porsche-911-gt3-rs-991-16",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 GT3 RS (991) '16",
+    "year": 2016,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-gt3-rs-992-22",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 GT3 RS (992) '22",
+    "year": 2022,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-rsr-991-17",
+    "class": "Gr.3",
+    "manufacturer": "Porsche",
+    "name": "911 RSR (991) '17",
+    "year": 2017,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-turbo-930-81",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Turbo (930) '81",
+    "year": 1981,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-turbo-s-leichtbau-964-93",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Turbo S Leichtbau (964) '93",
+    "year": 1993,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-turbo-s-992-20",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "911 Turbo S (992) '20",
+    "year": 2020,
+    "setups": []
+  },
+  {
+    "id": "porsche-911-turbo-s-safety-car-992",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "911 Turbo S Safety Car (992)",
+    "year": null,
+    "setups": []
+  },
+  {
+    "id": "porsche-917k-70",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "917K '70",
+    "year": 1970,
+    "setups": []
+  },
+  {
+    "id": "porsche-917-living-legend",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "917 Living Legend",
+    "year": null,
+    "setups": []
+  },
+  {
+    "id": "porsche-918-spyder-13",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "918 Spyder '13",
+    "year": 2013,
+    "setups": []
+  },
+  {
+    "id": "porsche-919-hybrid-16",
+    "class": "Gr.1",
+    "manufacturer": "Porsche",
+    "name": "919 Hybrid '16",
+    "year": 2016,
+    "setups": []
+  },
+  {
+    "id": "porsche-959-87",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "959 '87",
+    "year": 1987,
+    "setups": []
+  },
+  {
+    "id": "porsche-962-c-88",
+    "class": "Gr.1",
+    "manufacturer": "Porsche",
+    "name": "962 C '88",
+    "year": 1988,
+    "setups": []
+  },
+  {
+    "id": "porsche-963-24",
+    "class": "Gr.1",
+    "manufacturer": "Porsche",
+    "name": "963 '24",
+    "year": 2024,
+    "setups": []
+  },
+  {
+    "id": "porsche-carrera-gt-04",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "Carrera GT '04",
+    "year": 2004,
+    "setups": []
+  },
+  {
+    "id": "porsche-carrera-gts-904-64",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "Carrera GTS (904) '64",
+    "year": 1964,
+    "setups": []
+  },
+  {
+    "id": "porsche-cayman-gt4-16",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "Cayman GT4 '16",
+    "year": 2016,
+    "setups": []
+  },
+  {
+    "id": "porsche-cayman-gt4-clubsport-16",
+    "class": "Gr.4",
+    "manufacturer": "Porsche",
+    "name": "Cayman GT4 Clubsport '16",
+    "year": 2016,
+    "setups": []
+  },
+  {
+    "id": "porsche-mission-x-23",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "Mission X '23",
+    "year": 2023,
+    "setups": []
+  },
+  {
+    "id": "porsche-spyder-type-550-1500rs-55",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "Spyder type 550/1500RS '55",
+    "year": 1955,
+    "setups": []
+  },
+  {
+    "id": "porsche-taycan-turbo-s-19",
+    "class": "Straßenwagen",
+    "manufacturer": "Porsche",
+    "name": "Taycan Turbo S '19",
+    "year": 2019,
+    "setups": []
+  },
+  {
+    "id": "porsche-vision-gran-turismo",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "Vision Gran Turismo",
+    "year": null,
+    "setups": []
+  },
+  {
+    "id": "porsche-vision-gran-turismo-spyder",
+    "class": "Gr.X",
+    "manufacturer": "Porsche",
+    "name": "Vision Gran Turismo Spyder",
+    "year": null,
+    "setups": []
   }
 ]

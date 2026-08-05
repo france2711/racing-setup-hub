@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "ds-automobiles-ds-3-racing-11",
+    "class": "Straßenwagen",
+    "manufacturer": "DS AUTOMOBILES",
+    "name": "DS AUTOMOBILES DS 3 Racing '11",
+    "year": 2011,
+    "sourceCarId": 2172,
+    "setups": [
+      {
+        "track": "24 Heures du Mans",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "24 Heures du Mans – Ohne Schikanen",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Alsace – Village",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Alsace – Village Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Alsace – Test Course",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Alsace – Test Course Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – Gesamtstrecke",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – Gesamtstrecke Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – Centre",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – Centre Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – East",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – East Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – East End",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – East End Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – West",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – West Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – West End",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autodrome Lago Maggiore – West End Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autódromo de Interlagos",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Monza",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Monza – Ohne Schikane",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autopolis",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Autopolis – Kurzstrecke",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Barcelona-Catalunya GP",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Barcelona-Catalunya GP – Ohne Schikane",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Barcelona-Catalunya – National",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Barcelona-Catalunya – Rallycross",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay Speedway",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay Speedway Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay – Infield A",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay – Infield A Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay – Infield B",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Blue Moon Bay – Infield B Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Brands Hatch",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Brands Hatch – Indy",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Broad Bean Raceway",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Broad Bean Raceway Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix A",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix A Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix B",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix B Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix C",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit de Sainte-Croix C Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Colorado Springs – Lake",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Colorado Springs – Lake Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Daytona – Tri-Oval",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Daytona – Road Course",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Deep Forest Raceway",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Deep Forest Raceway Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Dragon Trail – Seaside",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Dragon Trail – Seaside Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Dragon Trail – Gardens",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Dragon Trail – Gardens Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Eiger Nordwand",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Eiger Nordwand Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Fishermans Ranch",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Fishermans Ranch Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Fuji Speedway",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Fuji Speedway – Kurz",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Goodwood Motor Circuit",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Grand Valley – Highway 1",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Grand Valley – Highway 1 Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Grand Valley – South",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Grand Valley – South Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "High Speed Ring",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "High Speed Ring Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Kyoto Driving Park – Miyabi",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Kyoto Driving Park – Yamagiwa",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Kyoto Driving Park – Yamagiwa Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Kyoto Driving Park – Yamagiwa + Miyabi",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Kyoto Driving Park – Yamagiwa + Miyabi Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "WeatherTech Raceway Laguna Seca",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Long Track",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Long Track Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Short Track",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Short Track Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Tri-Oval",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Lake Louise – Tri-Oval Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Mount Panorama Motor Racing Circuit",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Northern Isle Speedway",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring GP",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring Sprint",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring 24h",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring Endurance",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring Endurance II",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring Nordschleife",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Nürburgring Nordschleife – Touristenfahrten",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Red Bull Ring",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Red Bull Ring – Kurz",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Michelin Raceway Road Atlanta",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track A",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track A Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track B",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track B Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track C",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Road Track C Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Windmills",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Sardegna – Windmills Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Spa",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Spa – 24h Layout",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Special Stage Route X",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Suzuka",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Suzuka – East Course",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – Central Clockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – Central Counterclockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – East Clockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – East Counterclockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – South Clockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tokyo Expressway – South Counterclockwise",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Trial Mountain Circuit",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Trial Mountain Circuit Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Tsukuba Circuit",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Watkins Glen",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Watkins Glen – Short Course",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Willow Springs – Big Willow",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Willow Springs – Horse Thief Mile",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Willow Springs – Horse Thief Mile Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Willow Springs – Streets of Willow Springs",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Willow Springs – Streets of Willow Springs Rückwärts",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Circuit Gilles-Villeneuve",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      },
+      {
+        "track": "Yas Marina Circuit",
+        "brakeBalance": "–",
+        "tcs": "–",
+        "tires": "Noch offen",
+        "abs": "–",
+        "asm": "–",
+        "tip": "Setup noch nicht eingetragen – über den Setup-Editor ergänzen.",
+        "setupAvailable": false
+      }
+    ]
+  }
+]

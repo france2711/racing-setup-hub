@@ -4,6 +4,7 @@ const state = {
   manufacturer: null,
   carId: null,
   track: null,
+  trackSearch: "",
   search: "",
   favorites: new Set(
     JSON.parse(localStorage.getItem("gt7-car-favorites") || "[]")
@@ -324,7 +325,9 @@ function renderCars() {
   if (!filteredCars.length) {
     box.textContent = "Keine Fahrzeuge gefunden.";
   }
-}function getSetupOverrideKey(carId, track) {
+}
+
+function getSetupOverrideKey(carId, track) {
   return `gt7-setup-edit-${carId}-${track}`;
 }
 
@@ -333,9 +336,7 @@ function getSetupOverride(carId, track) {
     getSetupOverrideKey(carId, track)
   );
 
-  if (!saved) {
-    return null;
-  }
+  if (!saved) return null;
 
   try {
     return JSON.parse(saved);
@@ -345,87 +346,23 @@ function getSetupOverride(carId, track) {
 }
 
 function getDisplayedSetup(car, originalSetup) {
-  const override = getSetupOverride(
-    car.id,
-    originalSetup.track
-  );
-
-  return override
-    ? { ...originalSetup, ...override }
-    : originalSetup;
+  const override = getSetupOverride(car.id, originalSetup.track);
+  return override ? { ...originalSetup, ...override } : originalSetup;
 }
 
 function fillSetupEditor(setup) {
-  $("#editBrakeBalance").value =
-    setup.brakeBalance ?? 0;
+  const brake = $("#editBrakeBalance");
+  if (!brake) return;
 
-  $("#editTcs").value =
-    setup.tcs ?? 0;
-
-  $("#editTires").value =
-    setup.tires || "";
-
-  $("#editAbs").value =
-    setup.abs || "Standard";
-
-  $("#editAsm").value =
-    setup.asm || "Aus";
-
-  $("#editTip").value =
-    setup.tip || "";
+  brake.value = setup.brakeBalance ?? 0;
+  $("#editTcs").value = setup.tcs ?? 0;
+  $("#editTires").value = setup.tires || "";
+  $("#editAbs").value = setup.abs || "Standard";
+  $("#editAsm").value = setup.asm || "Aus";
+  $("#editTip").value = setup.tip || "";
 }
 
-function renderDetails()
- {function getSetupOverrideKey(carId, track) {
-  return `gt7-setup-edit-${carId}-${track}`;
-}
-
-function getSetupOverride(carId, track) {
-  const saved = localStorage.getItem(
-    getSetupOverrideKey(carId, track)
-  );
-
-  if (!saved) {
-    return null;
-  }
-
-  try {
-    return JSON.parse(saved);
-  } catch {
-    return null;
-  }
-}
-
-function getDisplayedSetup(car, originalSetup) {
-  const override = getSetupOverride(
-    car.id,
-    originalSetup.track
-  );
-
-  return override
-    ? { ...originalSetup, ...override }
-    : originalSetup;
-}
-
-function fillSetupEditor(setup) {
-  $("#editBrakeBalance").value =
-    setup.brakeBalance ?? 0;
-
-  $("#editTcs").value =
-    setup.tcs ?? 0;
-
-  $("#editTires").value =
-    setup.tires || "";
-
-  $("#editAbs").value =
-    setup.abs || "Standard";
-
-  $("#editAsm").value =
-    setup.asm || "Aus";
-
-  $("#editTip").value =
-    setup.tip || "";
-}
+function renderDetails() {
   const car = state.data.cars.find(
     item => item.id === state.carId
   );
@@ -520,18 +457,26 @@ function fillSetupEditor(setup) {
     state.favorites.has(car.id) ? "★" : "☆";
 
   const trackTabs = $("#trackTabs");
+  const trackResultCount = $("#trackResultCount");
 
   trackTabs.innerHTML = "";
 
-  car.setups.forEach(setup => {
+  const trackQuery = state.trackSearch.toLowerCase().trim();
+  const visibleSetups = car.setups.filter(setup =>
+    setup.track.toLowerCase().includes(trackQuery)
+  );
+
+  if (trackResultCount) {
+    trackResultCount.textContent = trackQuery
+      ? `${visibleSetups.length} von ${car.setups.length} Strecken gefunden`
+      : `${car.setups.length} Strecken verfügbar`;
+  }
+
+  visibleSetups.forEach(setup => {
     const button = document.createElement("button");
 
     button.className =
-      `track-tab ${
-        state.track === setup.track
-          ? "active"
-          : ""
-      }`;
+      `track-tab ${state.track === setup.track ? "active" : ""}`;
 
     button.textContent = setup.track;
 
@@ -543,6 +488,13 @@ function fillSetupEditor(setup) {
     trackTabs.appendChild(button);
   });
 
+  if (!visibleSetups.length) {
+    const message = document.createElement("div");
+    message.className = "track-no-results";
+    message.textContent = "Keine passende Strecke gefunden.";
+    trackTabs.appendChild(message);
+  }
+
   const setup = car.setups.find(
     item => item.track === state.track
   );
@@ -550,64 +502,52 @@ function fillSetupEditor(setup) {
   if (!setup) {
     $("#setupDetails").innerHTML =
       "<p>Kein Setup für diese Strecke vorhanden.</p>";
-
     return;
   }
-const displayedSetup =
-  getDisplayedSetup(car, setup);
- $("#selectedTrackName").textContent =
-  displayedSetup.track;
 
-$("#setupDetails").innerHTML = `
-  <div class="setup-row">
-    <strong>Bremsbalance</strong>
-    <span>${displayedSetup.brakeBalance}</span>
-  </div>
+  const displayedSetup = getDisplayedSetup(car, setup);
 
-  <div class="setup-row">
-    <strong>TKS</strong>
-    <span>${displayedSetup.tcs}</span>
-  </div>
+  $("#selectedTrackName").textContent = displayedSetup.track;
 
-  <div class="setup-row">
-    <strong>Reifen</strong>
-    <span>${displayedSetup.tires}</span>
-  </div>
+  $("#setupDetails").innerHTML = `
+    <div class="setup-row">
+      <strong>Bremsbalance</strong>
+      <span>${displayedSetup.brakeBalance}</span>
+    </div>
+    <div class="setup-row">
+      <strong>TKS</strong>
+      <span>${displayedSetup.tcs}</span>
+    </div>
+    <div class="setup-row">
+      <strong>Reifen</strong>
+      <span>${displayedSetup.tires}</span>
+    </div>
+    <div class="setup-row">
+      <strong>ABS</strong>
+      <span>${displayedSetup.abs || "Standard"}</span>
+    </div>
+    <div class="setup-row">
+      <strong>ASM</strong>
+      <span>${displayedSetup.asm || "Aus"}</span>
+    </div>
+    <p>${displayedSetup.tip || ""}</p>
+  `;
 
-  <div class="setup-row">
-    <strong>ABS</strong>
-    <span>${displayedSetup.abs || "Standard"}</span>
-  </div>
+  $("#setupStability").textContent =
+    createStars(displayedSetup.ratings?.stability);
+  $("#setupTurnIn").textContent =
+    createStars(displayedSetup.ratings?.turnIn);
+  $("#setupTraction").textContent =
+    createStars(displayedSetup.ratings?.traction);
+  $("#setupTireWear").textContent =
+    createStars(displayedSetup.ratings?.tireWear);
 
-  <div class="setup-row">
-    <strong>ASM</strong>
-    <span>${displayedSetup.asm || "Aus"}</span>
-  </div>
-
-  <p>${displayedSetup.tip || ""}</p>
-`;
-
-$("#setupStability").textContent =
-  createStars(displayedSetup.ratings?.stability);
-
-$("#setupTurnIn").textContent =
-  createStars(displayedSetup.ratings?.turnIn);
-
-$("#setupTraction").textContent =
-  createStars(displayedSetup.ratings?.traction);
-
-$("#setupTireWear").textContent =
-  createStars(displayedSetup.ratings?.tireWear);
-  const noteKey =
-  `gt7-note-${car.id}-${displayedSetup.track}`;
- 
   fillSetupEditor(displayedSetup);
 
+  const noteKey = `gt7-note-${car.id}-${displayedSetup.track}`;
+  $("#setupNote").value = localStorage.getItem(noteKey) || "";
+  $("#setupNote").dataset.key = noteKey;
 
-$("#setupNote").value =
-  localStorage.getItem(noteKey) || "";
-
-$("#setupNote").dataset.key = noteKey;
 }
 function render() {
   renderStats();
@@ -709,97 +649,68 @@ $("#exportButton").onclick = () => {
   link.click();
   URL.revokeObjectURL(link.href);
 };
-$("#toggleSetupEditor").onclick = () => {
-  const editor = $("#setupEditor");
 
-  editor.hidden = !editor.hidden;
+const trackSearchInput = $("#trackSearchInput");
+const clearTrackSearchButton = $("#clearTrackSearch");
 
-  $("#toggleSetupEditor").textContent =
-    editor.hidden
-      ? "✏️ Setup bearbeiten"
-      : "✖ Editor schließen";
-};
+trackSearchInput?.addEventListener("input", event => {
+  state.trackSearch = event.target.value;
+  renderDetails();
+});
 
-$("#saveSetupEdit").onclick = () => {
-  const car = state.data?.cars.find(
-    item => item.id === state.carId
-  );
-
-  const originalSetup = car?.setups.find(
-    item => item.track === state.track
-  );
-
-  if (!car || !originalSetup) {
-    return;
+clearTrackSearchButton?.addEventListener("click", () => {
+  state.trackSearch = "";
+  if (trackSearchInput) {
+    trackSearchInput.value = "";
+    trackSearchInput.focus();
   }
+  renderDetails();
+});
+
+$("#toggleSetupEditor")?.addEventListener("click", () => {
+  const editor = $("#setupEditor");
+  editor.hidden = !editor.hidden;
+  $("#toggleSetupEditor").textContent = editor.hidden
+    ? "✏️ Setup bearbeiten"
+    : "✖ Editor schließen";
+});
+
+$("#saveSetupEdit")?.addEventListener("click", () => {
+  const car = state.data?.cars.find(item => item.id === state.carId);
+  const originalSetup = car?.setups.find(item => item.track === state.track);
+  if (!car || !originalSetup) return;
 
   const editedSetup = {
-    brakeBalance:
-      Number($("#editBrakeBalance").value),
-
-    tcs:
-      Number($("#editTcs").value),
-
-    tires:
-      $("#editTires").value.trim(),
-
-    abs:
-      $("#editAbs").value.trim(),
-
-    asm:
-      $("#editAsm").value.trim(),
-
-    tip:
-      $("#editTip").value.trim()
+    brakeBalance: Number($("#editBrakeBalance").value),
+    tcs: Number($("#editTcs").value),
+    tires: $("#editTires").value.trim(),
+    abs: $("#editAbs").value.trim(),
+    asm: $("#editAsm").value.trim(),
+    tip: $("#editTip").value.trim()
   };
 
   localStorage.setItem(
-    getSetupOverrideKey(
-      car.id,
-      originalSetup.track
-    ),
+    getSetupOverrideKey(car.id, originalSetup.track),
     JSON.stringify(editedSetup)
   );
 
-  $("#setupEditorStatus").textContent =
-    "Persönliches Setup gespeichert.";
-
+  $("#setupEditorStatus").textContent = "Persönliches Setup gespeichert.";
   renderDetails();
+});
 
-  setTimeout(() => {
-    $("#setupEditorStatus").textContent = "";
-  }, 1800);
-};
-
-$("#resetSetupEdit").onclick = () => {
-  const car = state.data?.cars.find(
-    item => item.id === state.carId
-  );
-
-  const originalSetup = car?.setups.find(
-    item => item.track === state.track
-  );
-
-  if (!car || !originalSetup) {
-    return;
-  }
+$("#resetSetupEdit")?.addEventListener("click", () => {
+  const car = state.data?.cars.find(item => item.id === state.carId);
+  const originalSetup = car?.setups.find(item => item.track === state.track);
+  if (!car || !originalSetup) return;
 
   localStorage.removeItem(
-    getSetupOverrideKey(
-      car.id,
-      originalSetup.track
-    )
+    getSetupOverrideKey(car.id, originalSetup.track)
   );
 
-  $("#setupEditorStatus").textContent =
-    "Original-Setup wiederhergestellt.";
-
+  $("#setupEditorStatus").textContent = "Original-Setup wiederhergestellt.";
   renderDetails();
+});
 
-  setTimeout(() => {
-    $("#setupEditorStatus").textContent = "";
-  }, 1800);
-};
 init().catch(error => {
   $("#detailsEmpty").textContent =
     "GT7-Daten konnten nicht geladen werden.";
